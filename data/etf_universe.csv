@@ -124,7 +124,7 @@ AGZ,AGZ,iShares  Agency Bond ETF,P,False
 AGZD,AGZD,WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund,Q,False
 AHBM,AHBM,Amplify Top 10 Asia Memory ETF,P,False
 AHD,AHD,GraniteShares Autocallable HOOD ETF,Q,False
-AHIC,AHIC,Allspring Short-Term High Income Fund ETF,Q,True
+AHIC,AHIC,Allspring Short-Term High Income Fund ETF,Q,False
 AHLT,AHLT,AHL Trend ETF,P,False
 AHYB,AHYB,American Century Select High Yield ETF,P,False
 AHYM,AHYM,Allspring High Yield Municipal Bond Fund ETF,Q,False
@@ -193,7 +193,7 @@ AMKX,AMKX,Corgi AMKR 2x Daily ETF,Z,True
 AMLP,AMLP,Alerian MLP ETF,P,False
 AMMO,AMMO,VistaShares Defense Supercycle ETF,P,False
 AMPU,AMPU,Defiance Daily Target 2X Long AMPX ETF,Z,True
-AMUN,AMUN,abrdn Ultra Short Municipal Income Active ETF,Q,True
+AMUN,AMUN,abrdn Ultra Short Municipal Income Active ETF,Q,False
 AMUU,AMUU,Direxion Daily AMD Bull 2X ETF,Q,True
 AMYY,AMYY,GraniteShares YieldBOOST AMD ETF,Q,False
 AMZA,AMZA,InfraCap MLP ETF,P,False
@@ -312,7 +312,7 @@ AUGW,AUGW,AllianzIM U.S. Large Cap Buffer20 Aug ETF,Z,False
 AUGZ,AUGZ,TrueShares Structured Outcome (August) ETF,Z,False
 AUMI,AUMI,Themes Gold Miners ETF,Q,False
 AUSF,AUSF,Global X Adaptive U.S. Factor ETF,P,False
-AUSM,AUSM,Allspring Ultra Short Municipal ETF,P,True
+AUSM,AUSM,Allspring Ultra Short Municipal ETF,P,False
 AV,AV,Corgi Aerospace & Commercial Aviation ETF,Z,False
 AVAZ,AVAZ,2x Avalanche ETF,Z,True
 AVDE,AVDE,Avantis International Equity ETF,P,False
@@ -349,7 +349,7 @@ AVS,AVS,Direxion Daily AVGO Bear 1X ETF,Q,True
 AVSC,AVSC,Avantis U.S Small Cap Equity ETF,P,False
 AVSD,AVSD,Avantis Responsible International Equity ETF,P,False
 AVSE,AVSE,Avantis Responsible Emerging Markets Equity ETF,P,False
-AVSF,AVSF,Avantis Short-Term Fixed Income ETF,P,True
+AVSF,AVSF,Avantis Short-Term Fixed Income ETF,P,False
 AVSU,AVSU,Avantis Responsible U.S. Equity ETF,P,False
 AVTM,AVTM,Avantis Total Equity Markets ETF,P,False
 AVUC,AVUC,Avantis U.S. Core Equity ETF,P,False
@@ -386,7 +386,7 @@ BAMB,BAMB,Brookstone Intermediate Bond ETF,Z,False
 BAMD,BAMD,Brookstone Dividend Stock ETF,Z,False
 BAMG,BAMG,Brookstone Growth Stock ETF,Z,False
 BAMO,BAMO,Brookstone Opportunities ETF,Z,False
-BAMU,BAMU,Brookstone Ultra-Short Bond ETF,Z,True
+BAMU,BAMU,Brookstone Ultra-Short Bond ETF,Z,False
 BAMV,BAMV,Brookstone Value Stock ETF,Z,False
 BAMY,BAMY,Brookstone Yield ETF,Z,False
 BAPR,BAPR,Innovator U.S. Equity Buffer ETF - April,Z,False
@@ -508,12 +508,12 @@ BIL,BIL,State Street SPDR Bloomberg 1-3 Month T-Bill ETF,P,False
 BILD,BILD,Nomura Global Listed Infrastructure ETF,P,False
 BILS,BILS,State Street SPDR Bloomberg 3-12 Month T-Bill ETF,P,False
 BILT,BILT,iShares Infrastructure Active ETF,Z,False
-BILZ,BILZ,PIMCO Ultra Short Government Active Exchange-Traded Fund,P,True
+BILZ,BILZ,PIMCO Ultra Short Government Active Exchange-Traded Fund,P,False
 BINC,BINC,iShares Flexible Income Active ETF,P,False
 BINT,BINT,Bluemonte Global Equity ETF,P,False
 BINV,BINV,Brandes International ETF,Z,False
 BIOY,BIOY,GraniteShares YieldBOOST Biotech ETF,Q,False
-BIS,BIS,ProShares UltraShort Nasdaq Biotechnology,Q,False
+BIS,BIS,ProShares UltraShort Nasdaq Biotechnology,Q,True
 BITA,BITA,iShares Bitcoin Premium Income ETF,Q,False
 BITB,BITB,Bitwise Bitcoin ETF ,P,False
 BITC,BITC,Bitwise Trendwise Bitcoin and Treasuries Rotation Strategy ETF,P,False
@@ -546,9 +546,9 @@ BKLG,BKLG,BNY Mellon US Large Cap Equity Growth ETF,P,False
 BKLN,BKLN,Invesco Senior Loan ETF,P,False
 BKMC,BKMC,BNY Mellon US Mid Cap Core Equity ETF,P,False
 BKMI,BKMI,BNY Mellon Municipal Intermediate ETF,Q,False
-BKMS,BKMS,BNY Mellon Municipal Short Duration ETF,Q,True
+BKMS,BKMS,BNY Mellon Municipal Short Duration ETF,Q,False
 BKSE,BKSE,BNY Mellon US Small Cap Core Equity ETF,P,False
-BKUI,BKUI,BNY Mellon Ultra Short Income ETF,P,True
+BKUI,BKUI,BNY Mellon Ultra Short Income ETF,P,False
 BLCK,BLCK,Corgi Crypto Infrastructure ETF,Z,False
 BLCR,BLCR,iShares Large Cap Core Active ETF,Q,False
 BLCV,BLCV,iShares Large Cap Value Active ETF,P,False
@@ -558,7 +558,7 @@ BLES,BLES,Inspire Global Hope ETF,P,False
 BLGR,BLGR,Bluemonte Large Cap Growth ETF,P,False
 BLOK,BLOK,Amplify Blockchain Technology ETF,P,False
 BLOX,BLOX,Nicholas Crypto Income ETF,P,False
-BLST,BLST,Bluemonte Short Term Bond ETF,P,True
+BLST,BLST,Bluemonte Short Term Bond ETF,P,False
 BLTD,BLTD,Bluemonte Long Term Bond ETF,P,False
 BLUC,BLUC,Bluemonte Large Cap Core ETF,P,False
 BLUI,BLUI,Bluemonte Diversified Income ETF,P,False
@@ -672,7 +672,7 @@ BSTP,BSTP,Innovator Buffer Step-Up Strategy ETF,P,False
 BSTS,BSTS,Invesco BulletShares 2028 Treasury Bond ETF,Q,False
 BSTU,BSTU,Invesco BulletShares 2030 Treasury Bond ETF,Q,False
 BSTV,BSTV,Invesco BulletShares 2031 Treasury Bond ETF,Q,False
-BSV,BSV,Vanguard Short-Term Bond ETF,P,True
+BSV,BSV,Vanguard Short-Term Bond ETF,P,False
 BSVO,BSVO,EA Bridgeway Omni Small-Cap Value ETF,Q,False
 BTA,BTA,Beacon Tactical Alternatives Risk ETF,P,False
 BTAL,BTAL,AGF U.S. Market Neutral Anti-Beta Fund,P,False
@@ -714,7 +714,7 @@ BULG,BULG,Leverage Shares 2X Long BULL Daily ETF,Q,True
 BULZ,BULZ,MicroSectors FANG & Innovation 3x Leveraged ETN,P,True
 BUSA,BUSA,Brandes U.S. Value ETF,Z,False
 BUSM,BUSM,EA Bridgeway Ultra-Small Company Market ETF,Z,True
-BUXX,BUXX,Strive Enhanced Income Short Maturity ETF,N,True
+BUXX,BUXX,Strive Enhanced Income Short Maturity ETF,N,False
 BUYB,BUYB,ProShares S&P 500 Buyback Aristocrats ETF,P,False
 BUYO,BUYO,KraneShares Man Buyout Beta Index ETF,P,False
 BUYW,BUYW,Main BuyWrite ETF,Z,False
@@ -725,10 +725,10 @@ BWET,BWET,Breakwave Tanker Shipping ETF,P,False
 BWQG,BWQG,BWM Quality Growth ETF,Z,False
 BWTG,BWTG,Brendan Wood TopGun Index ETF,Z,False
 BWX,BWX,State Street SPDR Bloomberg International Treasury Bond ETF,P,False
-BWZ,BWZ,State Street SPDR Bloomberg Short Term International Treasury Bond ETF,P,True
+BWZ,BWZ,State Street SPDR Bloomberg Short Term International Treasury Bond ETF,P,False
 BYLD,BYLD,iShares Yield Optimized Bond ETF,P,False
 BYRE,BYRE,Principal Real Estate Active Opportunities ETF,P,False
-BZQ,BZQ,ProShares UltraShort MSCI Brazil Capped,P,False
+BZQ,BZQ,ProShares UltraShort MSCI Brazil Capped,P,True
 BZZ,BZZ,Corgi Drones & Urban Air Mobility ETF,Z,False
 CAAA,CAAA,First Trust AAA CMBS ETF,P,False
 CABZ,CABZ,"Roundhill Robotaxi, Autonomous Vehicles & Technology ETF",Z,False
@@ -738,7 +738,7 @@ CAGE,CAGE,Calamos Autocallable Growth ETF,P,False
 CAIE,CAIE,Calamos Autocallable Income ETF,P,False
 CAIQ,CAIQ,Calamos Nasdaq Autocallable Income ETF,Q,False
 CALF,CALF,Pacer US Small Cap Cash Cows ETF,Z,False
-CALI,CALI,iShares Short-Term California Muni Active ETF,Q,True
+CALI,CALI,iShares Short-Term California Muni Active ETF,Q,False
 CAM,CAM,AB California Intermediate Municipal ETF,P,False
 CAMC,CAMC,Corgi CAMT 2x Daily ETF,Z,True
 CAML,CAML,Congress Large Cap Growth ETF,P,False
@@ -793,7 +793,7 @@ CCOM,CCOM,Simplify Chinese Commodities Strategy No K-1 ETF,P,False
 CCOR,CCOR,Core Alternative ETF,P,False
 CCPX,CCPX,Corgi China 2x Daily ETF,Z,True
 CCRP,CCRP,Columbia Corporate Bond ETF,P,False
-CCSB,CCSB,Carbon Collective Short Duration Green Bond ETF,Q,True
+CCSB,CCSB,Carbon Collective Short Duration Green Bond ETF,Q,False
 CCSO,CCSO,Carbon Collective Climate Solutions U.S. Equity ETF,Q,False
 CCUP,CCUP,T-REX 2X Long CRCL Daily Target ETF,Z,True
 CDC,CDC,VictoryShares US EQ Income Enhanced Volatility Wtd ETF,Q,False
@@ -838,9 +838,9 @@ CGNG,CGNG,Capital Group New Geography Equity ETF,P,False
 CGOV,CGOV,Corgi 0-3 Month T-Bill ETF,Z,False
 CGPT,CGPT,VegaShares AI Inference ETF,Q,False
 CGRO,CGRO,CoreValues Alpha Greater China Growth ETF,P,False
-CGSD,CGSD,Capital Group Short Duration Income ETF,P,True
-CGSM,CGSM,Capital Group Short Duration Municipal Income ETF,P,True
-CGUI,CGUI,Capital Group Ultra Short Income ETF,P,True
+CGSD,CGSD,Capital Group Short Duration Income ETF,P,False
+CGSM,CGSM,Capital Group Short Duration Municipal Income ETF,P,False
+CGUI,CGUI,Capital Group Ultra Short Income ETF,P,False
 CGUS,CGUS,Capital Group Core Equity ETF,P,False
 CGV,CGV,Conductor Global Equity Value ETF,N,False
 CGVV,CGVV,Capital Group U.S. Large Value ETF,P,False
@@ -1009,7 +1009,7 @@ CSEN,CSEN,Cohen & Steers Future of Energy Active ETF,Q,False
 CSEP,CSEP,Corgi U.S. Equities 15% Structured Buffer ETF - September Series,Z,False
 CSEX,CSEX,Tradr 2X Long CLS Daily ETF,Z,True
 CSHI,CSHI,NEOS Enhanced Income 1-3 Month T-Bill ETF,P,False
-CSHP,CSHP,iShares Dynamic Short-Term Active ETF,P,True
+CSHP,CSHP,iShares Dynamic Short-Term Active ETF,P,False
 CSIO,CSIO,Cohen & Steers Infrastructure Opportunities Active ETF,P,False
 CSM,CSM,ProShares Large Cap Core Plus,Z,False
 CSMD,CSMD,Congress SMid Growth ETF,P,False
@@ -1017,7 +1017,7 @@ CSNR,CSNR,Cohen & Steers Natural Resources Active ETF,P,False
 CSPF,CSPF,Cohen & Steers Preferred and Income Opportunities Active ETF,P,False
 CSRA,CSRA,Cohen & Steers Real Assets Active ETF,P,False
 CSRE,CSRE,Cohen & Steers Real Estate Active ETF,P,False
-CSSD,CSSD,Cohen & Steers Short Duration Preferred and Income Active ETF,P,True
+CSSD,CSSD,Cohen & Steers Short Duration Preferred and Income Active ETF,P,False
 CSTK,CSTK,Invesco Comstock Contrarian Equity ETF,Z,False
 CTA,CTA,Simplify Managed Futures Strategy ETF,P,False
 CTAG,CTAG,Calamos Timpani Active SMID Growth ETF,F,False
@@ -1173,7 +1173,7 @@ DFMC,DFMC,U.S. Micro Cap Portfolio: ETF Class Shares,P,False
 DFNL,DFNL,Davis Select Financial ETF,Z,False
 DFNM,DFNM,Dimensional National Municipal Bond ETF,P,False
 DFSB,DFSB,Dimensional Global Sustainability Fixed Income ETF,P,False
-DFSD,DFSD,Dimensional Short-Duration Fixed Income ETF,P,True
+DFSD,DFSD,Dimensional Short-Duration Fixed Income ETF,P,False
 DFSE,DFSE,Dimensional Emerging Markets Sustainability Core 1 ETF,P,False
 DFSI,DFSI,Dimensional International Sustainability Core 1 ETF,P,False
 DFSU,DFSU,Dimensional US Sustainability Core 1 ETF,P,False
@@ -1295,7 +1295,7 @@ DTEC,DTEC,ALPS Disruptive Technologies ETF,P,False
 DTH,DTH,WisdomTree International High Dividend Fund,P,False
 DTRE,DTRE,First Trust Alerian Disruptive Technology Real Estate ETF,P,False
 DUBS,DUBS,Aptus Large Cap Enhanced Yield ETF,Z,False
-DUG,DUG,ProShares UltraShort Energy,P,False
+DUG,DUG,ProShares UltraShort Energy,P,True
 DUHP,DUHP,US High Relative Profitability Portfolio ETF Class Shares,P,False
 DUKH,DUKH,Ocean Park High Income ETF,Q,False
 DUKQ,DUKQ,Ocean Park Domestic ETF,P,False
@@ -1331,7 +1331,7 @@ DWSH,DWSH,AdvisorShares Dorsey Wright Short ETF,Q,True
 DWUS,DWUS,AdvisorShares Dorsey Wright FSM US Core ETF,Q,False
 DWWN,DWWN,Principal Long Duration ETF,Z,False
 DWX,DWX,State Street SPDR S&P International Dividend ETF,P,False
-DXD,DXD,ProShares UltraShort Dow30,P,False
+DXD,DXD,ProShares UltraShort Dow30,P,True
 DXIV,DXIV,Dimensional International Vector Equity ETF,P,False
 DXJ,DXJ,WisdomTree Japan Hedged Equity Fund,P,False
 DXUV,DXUV,US Vector Equity Portfolio ETF Class Shares,P,False
@@ -1385,7 +1385,7 @@ EEMX,EEMX,State Street SPDR MSCI Emerging Markets Fossil Fuel Reserves Free ETF,
 EES,EES,WisdomTree U.S. SmallCap Fund,P,False
 EET,EET,ProShares Ultra MSCI Emerging Markets,P,True
 EETH,EETH,ProShares Ether ETF,P,False
-EEV,EEV,ProShares UltraShort MSCI Emerging Markets,P,False
+EEV,EEV,ProShares UltraShort MSCI Emerging Markets,P,True
 EFA,EFA,iShares MSCI EAFE ETF,P,False
 EFAA,EFAA,Invesco MSCI EAFE Income Advantage ETF,P,False
 EFAD,EFAD,ProShares MSCI EAFE Dividend Growers ETF,Z,False
@@ -1399,7 +1399,7 @@ EFIV,EFIV,State Street SPDR S&P 500 Scored and Screened ETF,P,False
 EFNL,EFNL,iShares MSCI Finland ETF,Z,False
 EFO,EFO,ProShares Ultra MSCI EAFE,P,True
 EFRA,EFRA,iShares Environmental Infrastructure and Industrials ETF,Q,False
-EFU,EFU,ProShares UltraShort MSCI EAFE,P,False
+EFU,EFU,ProShares UltraShort MSCI EAFE,P,True
 EFV,EFV,iShares MSCI EAFE Value ETF,Z,False
 EFZ,EFZ,ProShares Short MSCI EAFE,P,True
 EGGQ,EGGQ,NestYield Visionary ETF,Q,False
@@ -1455,7 +1455,7 @@ EMLP,EMLP,First Trust North American Energy Infrastructure Fund,P,False
 EMM,EMM,Global X Emerging Markets ex-China ETF,P,False
 EMMF,EMMF,WisdomTree Emerging Markets Multifactor Fund,P,False
 EMMY,EMMY,Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series,Z,False
-EMNT,EMNT,PIMCO Enhanced Short Maturity Active ESG and Bond Exchange-Traded Fund,P,True
+EMNT,EMNT,PIMCO Enhanced Short Maturity Active ESG and Bond Exchange-Traded Fund,P,False
 EMOP,EMOP,AB Emerging Markets Opportunities ETF,P,False
 EMOT,EMOT,First Trust S&P 500 Economic Moat ETF,P,False
 EMPB,EMPB,Efficient Market Portfolio Plus ETF,P,False
@@ -1492,7 +1492,7 @@ EPS,EPS,WisdomTree U.S. LargeCap Fund,P,False
 EPSB,EPSB,Harbor SMID Cap Core ETF,P,False
 EPSV,EPSV,Harbor SMID Cap Value ETF,P,False
 EPU,EPU,iShares MSCI Peru and Global Exposure ETF,P,False
-EPV,EPV,ProShares UltraShort FTSE Europe ETF,P,False
+EPV,EPV,ProShares UltraShort FTSE Europe ETF,P,True
 EQAL,EQAL,Invesco Russell 1000 Equal Weight ETF,P,False
 EQIN,EQIN,Columbia U.S. Equity Income ETF,P,False
 EQL,EQL,ALPS Equal Sector Weight ETF,P,False
@@ -1528,7 +1528,7 @@ ETFT,ETFT,Fundsmith Equity ETF,P,False
 ETH,ETH,Grayscale Ethereum Staking Mini ETF Shares,P,False
 ETHA,ETHA,iShares Ethereum Trust ETF,Q,False
 ETHB,ETHB,iShares Staked Ethereum Trust ETF,Q,False
-ETHD,ETHD,ProShares UltraShort Ether ETF,P,False
+ETHD,ETHD,ProShares UltraShort Ether ETF,P,True
 ETHE,ETHE,Grayscale Ethereum Staking ETF Shares,P,False
 ETHO,ETHO,Amplify Etho Climate Leadership U.S. ETF,P,False
 ETHT,ETHT,ProShares Ultra Ether ETF,P,True
@@ -1545,7 +1545,7 @@ EUFN,EUFN,iShares MSCI Europe Financials ETF,Q,False
 EUHY,EUHY,iShares Euro High Yield Corporate Bond USD Hedged ETF,Z,False
 EUIG,EUIG,iShares Euro Investment Grade Corporate Bond USD Hedged ETF,Z,False
 EUM,EUM,ProShares Short MSCI Emerging Markets,P,True
-EUO,EUO,ProShares UltraShort Euro,P,False
+EUO,EUO,ProShares UltraShort Euro,P,True
 EURL,EURL,Direxion Daily FTSE Europe Bull 3X ETF,P,True
 EUSA,EUSA,iShares MSCI USA Equal Weighted ETF,P,False
 EUSB,EUSB,iShares ESG Advanced Universal USD Bond ETF,P,False
@@ -1560,9 +1560,9 @@ EVMT,EVMT,Invesco Electric Vehicle Metals Commodity Strategy No K-1 ETF,Q,False
 EVMU,EVMU,Direxion Daily Ether Bull 2X ETF,P,True
 EVNT,EVNT,AltShares Event-Driven ETF,P,False
 EVPF,EVPF,Eaton Vance Preferred Securities and Income ETF,Q,False
-EVSB,EVSB,Eaton Vance Ultra-Short Income ETF,P,True
-EVSD,EVSD,Eaton Vance Short Duration Income ETF,Q,True
-EVSM,EVSM,Eaton Vance Short Duration Municipal Income ETF,P,True
+EVSB,EVSB,Eaton Vance Ultra-Short Income ETF,P,False
+EVSD,EVSD,Eaton Vance Short Duration Income ETF,Q,False
+EVSM,EVSM,Eaton Vance Short Duration Municipal Income ETF,P,False
 EVTR,EVTR,Eaton Vance Total Return Bond ETF,N,False
 EVUS,EVUS,iShares ESG Aware MSCI USA Value ETF,Z,False
 EVX,EVX,VanEck Environmental Services ETF,P,False
@@ -1586,7 +1586,7 @@ EWS,EWS,iShares MSCI Singapore ETF,P,False
 EWT,EWT,iShares MSCI Taiwan ETF,P,False
 EWU,EWU,iShares MSCI United Kingdom ETF,P,False
 EWUS,EWUS,iShares MSCI United Kingdom Small Cap ETF,Z,False
-EWV,EWV,ProShares UltraShort MSCI Japan,P,False
+EWV,EWV,ProShares UltraShort MSCI Japan,P,True
 EWW,EWW,iShares MSCI Mexico ETF,P,False
 EWX,EWX,State Street SPDR S&P Emerging Markets Small Cap ETF,P,False
 EWY,EWY,iShares MSCI South Korea ETF,P,False
@@ -1645,7 +1645,7 @@ FCLO,FCLO,Fidelity CLO ETF,Q,False
 FCOM,FCOM,Fidelity MSCI Communication Services Index ETF,P,False
 FCOR,FCOR,Fidelity Corporate Bond ETF,P,False
 FCPI,FCPI,Fidelity Stocks for Inflation ETF,Z,False
-FCSH,FCSH,Federated Hermes Short Duration Corporate ETF,P,True
+FCSH,FCSH,Federated Hermes Short Duration Corporate ETF,P,False
 FCTE,FCTE,SMI 3Fourteen Full-Cycle Trend ETF,Q,False
 FCTR,FCTR,First Trust Lunt U.S. Factor Rotation ETF,Z,False
 FCUS,FCUS,Pinnacle Focused Opportunities ETF,P,False
@@ -1741,7 +1741,7 @@ FHDG,FHDG,FT Vest U.S. Equity Quarterly Dynamic Buffer ETF,Z,False
 FHEQ,FHEQ,Fidelity Hedged Equity ETF,Z,False
 FHIL,FHIL,Federated Hermes International Leaders ETF,Z,False
 FHLC,FHLC,Fidelity MSCI Health Care Index ETF,P,False
-FHYS,FHYS,Federated Hermes Short Duration High Yield ETF,P,True
+FHYS,FHYS,Federated Hermes Short Duration High Yield ETF,P,False
 FIAT,FIAT,YieldMax Short COIN Option Income Strategy ETF,P,True
 FIAX,FIAX,Nicholas Fixed Income Alternative ETF,P,False
 FIBT,FIBT,Franklin US Innovation Bitcoin DRIP Index ETF,Q,False
@@ -1823,7 +1823,7 @@ FLSW,FLSW,Franklin FTSE Switzerland ETF,P,False
 FLTB,FLTB,Fidelity Limited Term Bond ETF,P,False
 FLTR,FLTR,VanEck IG Floating Rate ETF,P,False
 FLTW,FLTW,Franklin FTSE Taiwan ETF,P,False
-FLUD,FLUD,Franklin Ultra Short Bond ETF,P,True
+FLUD,FLUD,Franklin Ultra Short Bond ETF,P,False
 FLV,FLV,American Century Focused Large Cap Value ETF,P,False
 FLXI,FLXI,Invesco Flexible Income ETF,Z,False
 FLXN,FLXN,Horizon Flexible Income ETF,Z,False
@@ -1876,7 +1876,7 @@ FOXY,FOXY,Simplify Currency Strategy ETF,P,False
 FPA,FPA,First Trust Asia Pacific Ex-Japan AlphaDEX Fund,Q,False
 FPAA,FPAA,FPA Global Allocation ETF,Z,False
 FPAG,FPAG,FPA Global Equity ETF,Z,False
-FPAS,FPAS,FPA Short Duration Government ETF,Z,True
+FPAS,FPAS,FPA Short Duration Government ETF,Z,False
 FPE,FPE,First Trust Preferred Securities and Income ETF ETF,P,False
 FPEI,FPEI,First Trust Institutional Preferred Securities and Income ETF,P,False
 FPFD,FPFD,Fidelity Preferred Securities & Income ETF,Z,False
@@ -1905,13 +1905,13 @@ FSEP,FSEP,FT Vest U.S. Equity Buffer ETF - September,Z,False
 FSEV,FSEV,Fidelity Enhanced Small Cap Value ETF,P,False
 FSGS,FSGS,First Trust SMID Growth Strength ETF,Q,False
 FSIG,FSIG,First Trust Limited Duration Investment Grade Corporate ETF,P,False
-FSMB,FSMB,First Trust Short Duration Managed Municipal ETF,P,True
+FSMB,FSMB,First Trust Short Duration Managed Municipal ETF,P,False
 FSMD,FSMD,Fidelity Small-Mid Multifactor ETF,P,False
 FSML,FSML,Franklin Small Cap Enhanced ETF,P,False
 FSOL,FSOL,Fidelity Solana Fund,P,False
 FSPC,FSPC,First Trust Bloomberg Space Economy ETF,P,False
 FSTA,FSTA,Fidelity MSCI Consumer Staples Index ETF,P,False
-FSTB,FSTB,Fidelity Short-Term Bond ETF,Q,True
+FSTB,FSTB,Fidelity Short-Term Bond ETF,Q,False
 FSYD,FSYD,Fidelity Sustainable High Yield ETF,P,False
 FSZ,FSZ,First Trust Switzerland AlphaDEX Fund,Q,False
 FTA,FTA,First Trust Large Cap Value AlphaDEX Fund,Q,False
@@ -1937,7 +1937,7 @@ FTLS,FTLS,First Trust Long/Short Equity,P,True
 FTMA,FTMA,Franklin Massachusetts Municipal Income ETF,P,False
 FTMH,FTMH,Franklin Municipal High Yield ETF,P,False
 FTMN,FTMN,Franklin Minnesota Municipal Income ETF,P,False
-FTMS,FTMS,Franklin Short-Term Municipal Income ETF,P,True
+FTMS,FTMS,Franklin Short-Term Municipal Income ETF,P,False
 FTMU,FTMU,Franklin Municipal Income ETF,P,False
 FTN,FTN,Corgi FTSE 5-10 Year IG Corporate Bond ETF,Z,False
 FTNJ,FTNJ,Franklin New Jersey Municipal Income ETF,P,False
@@ -1947,9 +1947,9 @@ FTPA,FTPA,Franklin Pennsylvania Municipal Income ETF,P,False
 FTQI,FTQI,First Trust Nasdaq BuyWrite Income ETF,Q,False
 FTRB,FTRB,Federated Hermes Total Return Bond ETF,P,False
 FTRI,FTRI,First Trust Indxx Global Natural Resources Income ETF,Q,False
-FTSD,FTSD,Franklin Short Duration U.S. Government ETF,P,True
+FTSD,FTSD,Franklin Short Duration U.S. Government ETF,P,False
 FTSL,FTSL,First Trust Senior Loan Fund,Q,False
-FTSM,FTSM,First Trust Enhanced Short Maturity ETF,Q,True
+FTSM,FTSM,First Trust Enhanced Short Maturity ETF,Q,False
 FTWO,FTWO,Strive Natural Resources and Security ETF,N,False
 FTXG,FTXG,First Trust Nasdaq Food & Beverage ETF,Q,False
 FTXH,FTXH,First Trust Nasdaq Pharmaceuticals ETF,Q,False
@@ -1957,7 +1957,7 @@ FTXL,FTXL,First Trust Nasdaq Semiconductor ETF,Q,False
 FTXN,FTXN,First Trust Nasdaq Oil & Gas ETF,Q,False
 FTXO,FTXO,First Trust Nasdaq Bank ETF,Q,False
 FTXR,FTXR,First Trust Nasdaq Transportation ETF,Q,False
-FUMB,FUMB,First Trust Ultra Short Duration Municipal ETF,P,True
+FUMB,FUMB,First Trust Ultra Short Duration Municipal ETF,P,False
 FUSD,FUSD,Federated Hermes Ultrashort Bond ETF,Z,False
 FUSI,FUSI,American Century Ultrashort Income ETF,P,False
 FUTG,FUTG,Leverage Shares 2x Long FUTU Daily ETF,Q,True
@@ -1980,7 +1980,7 @@ FXI,FXI,iShares China Large-Cap ETF,P,False
 FXL,FXL,First Trust Technology AlphaDEX,P,False
 FXN,FXN,First Trust Energy AlphaDEX Fund,P,False
 FXO,FXO,First Trust Financials AlphaDEX,P,False
-FXP,FXP,ProShares UltraShort FTSE China 50,P,False
+FXP,FXP,ProShares UltraShort FTSE China 50,P,True
 FXR,FXR,First Trust Industrials AlphaDEX,P,False
 FXU,FXU,First Trust Utilities AlphaDEX Fund,P,False
 FXY,FXY,Invesco CurrencyShares Japanese Yen Trust,P,False
@@ -2019,7 +2019,7 @@ GCOR,GCOR,Goldman Sachs Access U.S. Aggregate Bond ETF,P,False
 GCOW,GCOW,Pacer Global Cash Cows Dividend ETF,Z,False
 GCPB,GCPB,Goldman Sachs Core Plus Bond ETF,N,False
 GCPU,GCPU,Grayscale AI Compute ETF,P,False
-GCSH,GCSH,Guggenheim Ultra Short Income ETF,P,True
+GCSH,GCSH,Guggenheim Ultra Short Income ETF,P,False
 GDE,GDE,WisdomTree Efficient Gold Plus Equity Strategy Fund,Z,False
 GDEC,GDEC,FT Vest U.S. Equity Moderate Buffer ETF - December,Z,False
 GDIV,GDIV,Harbor Dividend Growth Leaders ETF,N,False
@@ -2090,7 +2090,7 @@ GLDN,GLDN,Nicholas Gold Income ETF,P,False
 GLDW,GLDW,Roundhill Gold WeeklyPay ETF,Z,False
 GLIN,GLIN,VanEck India Growth Leaders ETF,P,False
 GLIX,GLIX,Lazard Listed Infrastructure ETF,P,False
-GLL,GLL,ProShares UltraShort Gold,P,False
+GLL,GLL,ProShares UltraShort Gold,P,True
 GLNK,GLNK,Grayscale Chainlink Trust ETF,P,False
 GLOF,GLOF,iShares Global Equity Factor ETF,P,False
 GLOW,GLOW,VictoryShares WestEnd Global Equity ETF,Q,False
@@ -2110,7 +2110,7 @@ GMIE,GMIE,"GMO International Equity Fund, ETF Class",P,False
 GMMA,GMMA,GammaRoad Market Navigation ETF,P,False
 GMMF,GMMF,iShares Government Money Market ETF,N,False
 GMNY,GMNY,Goldman Sachs Dynamic New York Municipal Income ETF,P,False
-GMOC,GMOC,GMO Ultra-Short Income ETF,P,True
+GMOC,GMOC,GMO Ultra-Short Income ETF,P,False
 GMOD,GMOD,GMO Dynamic Allocation ETF,P,False
 GMOI,GMOI,GMO International Value ETF,P,False
 GMOM,GMOM,Cambria Global Momentum ETF,Z,False
@@ -2178,23 +2178,23 @@ GSLC,GSLC,Goldman Sachs ActiveBeta U.S. Large Cap Equity ETF,P,False
 GSOL,GSOL,Grayscale Solana Staking ETF,P,False
 GSPY,GSPY,Gotham Enhanced 500 ETF,P,False
 GSSC,GSSC,GS ActiveBeta U.S. Small Cap Equity ETF,P,False
-GSST,GSST,Goldman Sachs Ultra Short Bond ETF,Z,True
+GSST,GSST,Goldman Sachs Ultra Short Bond ETF,Z,False
 GSUI,GSUI,Grayscale Sui Staking ETF,P,False
 GSUS,GSUS,Goldman Sachs MarketBeta U.S. Equity ETF,Z,False
 GSWO,GSWO,Goldman Sachs ActiveBeta World Equity ETF,Z,False
-GSY,GSY,Invesco Ultra Short Duration ETF,P,True
+GSY,GSY,Invesco Ultra Short Duration ETF,P,False
 GTEK,GTEK,Goldman Sachs Future Tech Leaders Equity ETF,P,False
 GTIP,GTIP,Goldman Sachs Access Inflation Protected USD Bond ETF,Z,False
 GTND,GTND,Goaltender ETF,P,False
 GTO,GTO,Invesco Total Return Bond ETF,P,False
 GTOC,GTOC,Invesco Core Fixed Income ETF,Z,False
-GTOH,GTOH,Invesco Short Duration High Yield ETF,Z,True
+GTOH,GTOH,Invesco Short Duration High Yield ETF,Z,False
 GTOP,GTOP,Goldman Sachs Technology Opportunities ETF,Q,False
 GTOQ,GTOQ,Invesco High Yield Systematic Bond ETF,Q,False
-GTOS,GTOS,Invesco Short Duration Total Return Bond ETF,Z,True
+GTOS,GTOS,Invesco Short Duration Total Return Bond ETF,Z,False
 GTPE,GTPE,Goldman Sachs MSCI World Private Equity Return Tracker ETF,Q,False
 GTR,GTR,WisdomTree Target Range Fund,Q,False
-GUMI,GUMI,Goldman Sachs Ultra Short Municipal Income ETF,P,True
+GUMI,GUMI,Goldman Sachs Ultra Short Municipal Income ETF,P,False
 GUNR,GUNR,Northern Trust Morningstar Global Upstream Natural Resources ETF,P,False
 GURU,GURU,Global X Guru Index ETF,P,False
 GUSA,GUSA,Goldman Sachs MarketBeta U.S. 1000 Equity ETF,P,False
@@ -2232,7 +2232,7 @@ HAUZ,HAUZ,Xtrackers International Real Estate ETF,P,False
 HAWG,HAWG,HCM Hedged Equity ETF,P,False
 HAWX,HAWX,iShares Currency Hedged MSCI ACWI ex U.S. ETF,P,False
 HBDC,HBDC,Hilton BDC Corporate Bond ETF,Q,False
-HBIL,HBIL,Harbor Short Term Treasury ETF,P,True
+HBIL,HBIL,Harbor Short Term Treasury ETF,P,False
 HBIT,HBIT,Hedgeye Hedged Bitcoin ETF,P,False
 HBMX,HBMX,Tuttle Capital Concentrated Memory Stack ETF,Z,False
 HBR,HBR,Canary HBAR ETF,Q,False
@@ -2245,7 +2245,7 @@ HCRB,HCRB,Hartford Core Bond ETF,Z,False
 HDEF,HDEF,Xtrackers MSCI EAFE High Dividend Yield Equity ETF,P,False
 HDG,HDG,ProShares Hedge Replication ETF,P,False
 HDGE,HDGE,Ranger Equity Bear Bear ETF,P,True
-HDLB,HDLB,"ETRACS Monthly Pay 2xLeveraged US High Dividend Low Volatility ETN Series B due September 30, 2044",P,False
+HDLB,HDLB,"ETRACS Monthly Pay 2xLeveraged US High Dividend Low Volatility ETN Series B due September 30, 2044",P,True
 HDMV,HDMV,First Trust Horizon Managed Volatility Developed International ETF,P,False
 HDUS,HDUS,Hartford Disciplined US Equity ETF,P,False
 HDV,HDV,iShares Core High Dividend ETF,P,False
@@ -2372,7 +2372,7 @@ HYP,HYP,Golden Eagle Dynamic Hypergrowth ETF,Q,False
 HYPG,HYPG,Grayscale Hyperliquid Staking ETF,Q,False
 HYS,HYS,PIMCO 0-5 Year High Yield Corporate Bond Exchange-Traded Fund,P,False
 HYSA,HYSA,BondBloxx High Yield Income ETF,P,False
-HYSD,HYSD,Columbia Short Duration High Yield ETF,P,True
+HYSD,HYSD,Columbia Short Duration High Yield ETF,P,False
 HYTI,HYTI,FT Vest High Yield & Target Income ETF,P,False
 HYTR,HYTR,Counterpoint High Yield Trend ETF,N,False
 HYUP,HYUP,Xtrackers High Beta High Yield Bond ETF,P,False
@@ -2469,7 +2469,7 @@ ICOP,ICOP,iShares Copper and Metals Mining ETF,Q,False
 ICOW,ICOW,Pacer Developed Markets International Cash Cows 100 ETF,Z,False
 ICPI,ICPI,iShares 0-1 Year TIPS Bond ETF,P,False
 ICPY,ICPY,"Tweedy, Browne International Insider + Value ETF",P,False
-ICSH,ICSH,iShares Ultra Short Duration Bond Active ETF,Z,True
+ICSH,ICSH,iShares Ultra Short Duration Bond Active ETF,Z,False
 ICVT,ICVT,iShares Convertible Bond ETF,Z,False
 IDAU,IDAU,Corgi International Developed Equities 15% Structured Buffer ETF - August Series,Z,False
 IDEC,IDEC,Innovator International Developed Power Buffer ETF  December,P,False
@@ -2816,7 +2816,7 @@ JMID,JMID,Janus Henderson Mid Cap Growth Alpha ETF,Q,False
 JMMF,JMMF,JPMorgan 100% U.S. Treasury Securities Money Market ETF,P,False
 JMOM,JMOM,JPMorgan U.S. Momentum Factor ETF,P,False
 JMSI,JMSI,JPMorgan Sustainable Municipal Income ETF,P,False
-JMST,JMST,JPMorgan Ultra-Short Municipal Income ETF,P,True
+JMST,JMST,JPMorgan Ultra-Short Municipal Income ETF,P,False
 JMTG,JMTG,JPMorgan Mortgage-Backed Securities ETF,P,False
 JMUB,JMUB,JPMorgan Municipal ETF,P,False
 JNEU,JNEU,AllianzIM U.S. Equity Buffer15 Uncapped June ETF,Z,False
@@ -2845,14 +2845,14 @@ JPO,JPO,YieldMax JP Option Income Strategy ETF,P,False
 JPRE,JPRE,JPMorgan Realty Income ETF,P,False
 JPRF,JPRF,JPMorgan Preferred and Income Securities ETF,P,False
 JPSE,JPSE,JPMorgan Diversified Return U.S. Small Cap Equity ETF,P,False
-JPST,JPST,JPMorgan Ultra-Short Income ETF,P,True
+JPST,JPST,JPMorgan Ultra-Short Income ETF,P,False
 JPSV,JPSV,JPMorgan Active Small Cap Value ETF,P,False
 JPUS,JPUS,JPMorgan Diversified Return U.S. Equity ETF,P,False
 JPXN,JPXN,iShares JPX-Nikkei 400 ETF,P,False
 JPY,JPY,Lazard Japanese Equity ETF,Q,False
 JQTY,JQTY,Jensen U.S. Quality Index ETF,P,False
 JQUA,JQUA,JPMorgan U.S. Quality Factor ETF,P,False
-JSCP,JSCP,JPMorgan Short Duration Core Plus ETF,P,True
+JSCP,JSCP,JPMorgan Short Duration Core Plus ETF,P,False
 JSI,JSI,Janus Henderson Securitized Income ETF,P,False
 JSMD,JSMD,Janus Henderson Small/Mid Cap Growth Alpha ETF,Q,False
 JSML,JSML,Janus Henderson Small Cap Growth Alpha ETF,Q,False
@@ -2904,7 +2904,7 @@ KCCA,KCCA,KraneShares California Carbon Allowance Strategy ETF,P,False
 KCE,KCE,State Street SPDR S&P Capital Markets ETF,P,False
 KCHP,KCHP,KICK Korea Semiconductor Index ETF,P,False
 KCOP,KCOP,Kurv Copper & Mining Enhanced Income ETF,Z,False
-KCSH,KCSH,KraneShares Sustainable Ultra Short Duration Index ETF,P,True
+KCSH,KCSH,KraneShares Sustainable Ultra Short Duration Index ETF,P,False
 KDEC,KDEC,Innovator U.S. Small Cap Power Buffer ETF - December,Z,False
 KDEF,KDEF,PLUS Korea Defense Industry Index ETF,P,False
 KDRN,KDRN,Kingsbarn Tactical Bond ETF,P,False
@@ -2945,7 +2945,7 @@ KNRG,KNRG,Simplify Kayne Anderson Energy and Infrastructure Credit ETF,P,False
 KOCT,KOCT,Innovator U.S. Small Cap Power Buffer ETF - October,Z,False
 KOID,KOID,KraneShares Global Humanoid Robotics and Physical AI Index ETF,Q,False
 KOKU,KOKU,Xtrackers MSCI Kokusai Equity ETF,P,False
-KOLD,KOLD,ProShares UltraShort Bloomberg Natural Gas,P,False
+KOLD,KOLD,ProShares UltraShort Bloomberg Natural Gas,P,True
 KOMP,KOMP,State Street SPDR S&P Kensho New Economies Composite ETF,P,False
 KONG,KONG,Formidable Fortress ETF,Z,False
 KOOL,KOOL,North Shore Equity Rotation ETF,P,False
@@ -2988,7 +2988,7 @@ LATR,LATR,Corgi Buy Now Pay Later ETF,Z,False
 LAZR,LAZR,Tema Photonics & Optical ETF,P,False
 LBAY,LBAY,Leatherback Long/Short Alternative Yield ETF,P,True
 LBO,LBO,WHITEWOLF Publicly Listed Private Equity ETF,Z,False
-LBOX,LBOX,GraniteShares Short Term Box ETF,Z,True
+LBOX,LBOX,GraniteShares Short Term Box ETF,Z,False
 LCAP,LCAP,Principal Capital Appreciation Select ETF,Z,False
 LCDS,LCDS,JPMorgan Fundamental Data Science Large Core ETF,Q,False
 LCF,LCF,Touchstone US Large Cap Focused ETF,Z,False
@@ -3062,7 +3062,7 @@ LOFD,LOFD,Direxion Daily SpaceX Bear 2X ETF,P,True
 LOFF,LOFF,Direxion Daily SpaceX Bull 2X ETF,P,True
 LOGO,LOGO,Alpha Brands Consumption Leaders ETF,Q,False
 LOHA,LOHA,Roundhill HALO ETF,Z,False
-LONZ,LONZ,PIMCO Senior Loan and Short-Term Active ETF,P,True
+LONZ,LONZ,PIMCO Senior Loan and Short-Term Active ETF,P,False
 LOPP,LOPP,Gabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETF,P,False
 LOTI,LOTI,Liberty One Tactical Income ETF,Q,False
 LOUP,LOUP,Innovator Deepwater Frontier Tech ETF,P,False
@@ -3078,7 +3078,7 @@ LQDI,LQDI,iShares Inflation Hedged Corporate Bond ETF,Z,False
 LQDM,LQDM,Amplify LQD Investment Grade 12% Target Income ETF,Z,False
 LQDU,LQDU,MicroSectors 3x Long Investment Grade Corporate Bond (LQD) ETNs,Z,True
 LQDW,LQDW,iShares LQD Premium Income+ ETF,Z,False
-LQID,LQID,Kurv Enhanced Short Maturity ETF,Z,True
+LQID,LQID,Kurv Enhanced Short Maturity ETF,Z,False
 LQTI,LQTI,FT Vest Investment Grade & Target Income ETF,P,False
 LRCC,LRCC,Corgi LRCX 2x Daily ETF,Z,True
 LRCU,LRCU,Tradr 2X Long LRCX Daily ETF,Z,True
@@ -3176,7 +3176,7 @@ MDST,MDST,Westwood Salient Enhanced Midstream Income ETF,N,False
 MDY,MDY,State Street SPDR S&P MIDCAP 400 ETF Trust,P,False
 MDYG,MDYG,State Street SPDR S&P 400 Mid Cap Growth ETF,P,False
 MDYV,MDYV,State Street SPDR S&P 400 Mid Cap Value ETF,P,False
-MEAR,MEAR,iShares Short Maturity Municipal Bond Active ETF,Z,True
+MEAR,MEAR,iShares Short Maturity Municipal Bond Active ETF,Z,False
 MEDI,MEDI,Harbor Health Care ETF,P,False
 MEDX,MEDX,Horizon Kinetics Medical ETF,Q,False
 MEGX,MEGX,Corgi U.S. Mega-Cap Growth 2x Daily ETF,Z,True
@@ -3202,12 +3202,12 @@ MFIX,MFIX,Nomura Strategic Income ETF,P,False
 MFLX,MFLX,First Trust Flexible Municipal High Income ETF,Q,False
 MFMO,MFMO,Motley Fool Momentum Factor ETF,Q,False
 MFSB,MFSB,MFS Active Core Plus Bond ETF,N,False
-MFSD,MFSD,MFS Active Short Duration Income ETF,P,True
+MFSD,MFSD,MFS Active Short Duration Income ETF,P,False
 MFSG,MFSG,MFS Active Growth ETF,N,False
 MFSI,MFSI,MFS Active International ETF,N,False
 MFSM,MFSM,MFS Active Intermediate Muni Bond ETF,N,False
 MFSV,MFSV,MFS Active Value ETF,N,False
-MFSX,MFSX,MFS Active Short Muni Bond ETF,P,True
+MFSX,MFSX,MFS Active Short Muni Bond ETF,P,False
 MFUL,MFUL,Mindful Conservative ETF,Z,False
 MFUS,MFUS,PIMCO RAFI Dynamic Multi-Factor U.S. Equity ETF,P,False
 MFUT,MFUT,Cambria Chesapeake Pure Trend ETF,Z,False
@@ -3217,7 +3217,7 @@ MGIN,MGIN,Man Active Global Infrastructure ETF,P,False
 MGK,MGK,Vanguard Morningstar Mega Cap Growth ETF,P,False
 MGMT,MGMT,Ballast Small/Mid Cap ETF,P,False
 MGNR,MGNR,American Beacon Select Funds American Beacon GLG Natural Resources ETF,P,False
-MGOL,MGOL,Leverage Shares MANGOS ETF,Q,False
+MGOL,MGOL,Leverage Shares MANGOS ETF,Q,True
 MGOV,MGOV,First Trust Intermediate Government Opportunities ETF,P,False
 MGV,MGV,Vanguard Morningstar Mega Cap Value ETF,P,False
 MHIG,MHIG,Milliman Healthcare Inflation Guard ETF,P,False
@@ -3233,7 +3233,7 @@ MILK,MILK,Pacer US Cash Cows Bond ETF,Z,False
 MILN,MILN,Global X Millennial Consumer ETF,Q,False
 MINN,MINN,Mairs & Power Minnesota Municipal Bond ETF,Z,False
 MINO,MINO,PIMCO Municipal Income Opportunities Active Exchange-Traded Fund,P,False
-MINT,MINT,PIMCO Enhanced Short Maturity Active Exchange-Traded Fund,P,True
+MINT,MINT,PIMCO Enhanced Short Maturity Active Exchange-Traded Fund,P,False
 MINV,MINV,Matthews Asia Innovators Active ETF,P,False
 MINY,MINY,YieldMax Strategic Metals & Mining Portfolio Option Income ETF,P,False
 MISL,MISL,First Trust Indxx Aerospace & Defense ETF,P,False
@@ -3266,7 +3266,7 @@ MMK,MMK,State Street Prime Money Market ETF,N,False
 MMKT,MMKT,Texas Capital Government Money Market ETF,N,False
 MMMA,MMMA,NYLIM MacKay Muni Allocation ETF,P,False
 MMSC,MMSC,First Trust Multi-Manager Small Cap Opportunities ETF,P,False
-MMSD,MMSD,NYLIM MacKay Muni Short Duration ETF,P,True
+MMSD,MMSD,NYLIM MacKay Muni Short Duration ETF,P,False
 MMTM,MMTM,State Street SPDR S&P 1500 Momentum Tilt ETF,P,False
 MN,MN,Corgi MANGOS ETF,Z,False
 MNA,MNA,NYLIM Merger Arbitrage ETF,P,False
@@ -3331,7 +3331,7 @@ MSST,MSST,YieldMax MSTR Performance & Distribution Target 25 ETF,Z,False
 MST,MST,Defiance Leveraged Long + Income MSTR ETF,Q,True
 MSTB,MSTB,LHA Market State Tactical Beta ETF,Z,False
 MSTC,MSTC,Corgi MSTR 2x Daily ETF,Z,True
-MSTI,MSTI,Madison Short Term Strategic Income ETF,P,True
+MSTI,MSTI,Madison Short Term Strategic Income ETF,P,False
 MSTP,MSTP,GraniteShares 2x Long MSTR Daily ETF,Q,True
 MSTQ,MSTQ,LHA Market State Tactical Q ETF,Z,False
 MSTU,MSTU,T-Rex 2X Long MSTR Daily Target ETF,Z,True
@@ -3374,7 +3374,7 @@ MVFD,MVFD,Monarch Volume Factor Dividend Tree Index ETF,Z,False
 MVFG,MVFG,Monarch Volume Factor Global Unconstrained Index ETF,Z,False
 MVLL,MVLL,GraniteShares 2x Long MRVL Daily ETF,Q,True
 MVPA,MVPA,Miller Value Partners Appreciation ETF,N,False
-MVPL,MVPL,Miller Value Partners Leverage ETF,P,False
+MVPL,MVPL,Miller Value Partners Leverage ETF,P,True
 MVRL,MVRL,ETRACS Monthly Pay 1.5X Leveraged Mortgage REIT ETN,P,True
 MVV,MVV,ProShares Ultra MidCap400,P,True
 MWHS,MWHS,Skylar Electricity Futures ETF,P,False
@@ -3406,7 +3406,7 @@ MYMJ,MYMJ,State Street My2030 Municipal Bond ETF,Q,False
 MYMK,MYMK,State Street My2031 Municipal Bond ETF,Q,False
 MYML,MYML,State Street My2032 Municipal Bond ETF,Q,False
 MYY,MYY,ProShares Short MidCap400,P,True
-MZZ,MZZ,ProShares UltraShort MidCap400,P,False
+MZZ,MZZ,ProShares UltraShort MidCap400,P,True
 NACP,NACP,Impact Shares NAACP Minority Empowerment ETF,P,False
 NAIL,NAIL,Direxion Daily Homebuilders & Supplies Bull 3X ETF,P,True
 NANC,NANC,Subversive Congressional Democrats Trading ETF,Z,False
@@ -3430,7 +3430,7 @@ NBIL,NBIL,GraniteShares 2x Long NBIS Daily ETF,Q,True
 NBIZ,NBIZ,Tradr 2X Short NBIS Daily ETF,Z,True
 NBJP,NBJP,Neuberger Japan Equity ETF,P,False
 NBOS,NBOS,Neuberger Option Strategy ETF,P,False
-NBSD,NBSD,Neuberger Short Duration Income ETF,P,True
+NBSD,NBSD,Neuberger Short Duration Income ETF,P,False
 NBSM,NBSM,Neuberger Small-Mid Cap ETF,P,False
 NBTR,NBTR,Neuberger Total Return Bond ETF,P,False
 NCIQ,NCIQ,Hashdex Nasdaq CME Crypto Index ETF,Q,False
@@ -3442,7 +3442,7 @@ NDEC,NDEC,Innovator Growth-100 Power Buffer ETF - December,Z,False
 NDIA,NDIA,Global X India Active ETF,P,False
 NDIV,NDIV,Amplify Energy & Natural Resources Covered Call ETF,P,False
 NDOW,NDOW,Anydrus Advantage ETF,Z,False
-NEAR,NEAR,iShares Short Duration Bond Active ETF,Z,True
+NEAR,NEAR,iShares Short Duration Bond Active ETF,Z,False
 NEBX,NEBX,Tradr 2X Long NBIS Daily ETF,Z,True
 NECK,NECK,xETFs AI Bottlenecks ETF,P,False
 NEHI,NEHI,NEOS Ethereum High Income ETF,Z,False
@@ -3536,9 +3536,9 @@ NULV,NULV,Nuveen ESG Large-Cap Value ETF,Z,False
 NUMG,NUMG,Nuveen ESG Mid-Cap Growth ETF,Z,False
 NUMI,NUMI,Nuveen Municipal Income ETF,P,False
 NUMV,NUMV,Nuveen ESG Mid-Cap Value ETF,Z,False
-NURE,NURE,Nuveen Short-Term REIT ETF,Z,True
+NURE,NURE,Nuveen Short-Term REIT ETF,Z,False
 NUSA,NUSA,Nuveen ESG 1-5 Year U.S. Aggregate Bond ETF,P,False
-NUSB,NUSB,Nuveen Ultra Short Income ETF,Q,True
+NUSB,NUSB,Nuveen Ultra Short Income ETF,Q,False
 NUSC,NUSC,Nuveen ESG Small-Cap ETF,Z,False
 NVBT,NVBT,AllianzIM U.S. Large Cap Buffer10 Nov ETF,Z,False
 NVBU,NVBU,AllianzIM U.S. Equity Buffer15 Uncapped Nov ETF,Z,False
@@ -3673,7 +3673,7 @@ OVLH,OVLH,Overlay Shares Hedged Large Cap Equity ETF,Z,False
 OVM,OVM,Overlay Shares Municipal Bond ETF,Z,False
 OVQ,OVQ,Overlay Shares Nasdaq 100 Income ETF,Z,False
 OVS,OVS,Overlay Shares Small Cap Equity ETF,Z,False
-OVT,OVT,Overlay Shares Short Term Bond ETF,Z,True
+OVT,OVT,Overlay Shares Short Term Bond ETF,Z,False
 OWN,OWN,Inside Ownership 100 ETF,Z,False
 OWNB,OWNB,Bitwise Bitcoin Standard Corporations ETF,P,False
 OWNS,OWNS,Quaker Investment Trust CCM Affordable Housing MBS ETF,P,False
@@ -3890,7 +3890,7 @@ PRIZ,PRIZ,Zacks Preferred Income ETF,P,False
 PRMR,PRMR,PeakShares RMR Prime Equity ETF,Q,False
 PRN,PRN,Invesco Dorsey Wright Industrials Momentum ETF,Q,False
 PRNT,PRNT,3D Printing (The) ETF,Z,False
-PRSD,PRSD,State Street Short Duration IG Public & Private Credit ETF,P,True
+PRSD,PRSD,State Street Short Duration IG Public & Private Credit ETF,P,False
 PRTO,PRTO,RCN Pareto Strategic Allocation ETF,P,False
 PRVS,PRVS,Parnassus Value Select ETF,N,False
 PRXG,PRXG,Praxis Impact Large Cap Growth ETF,P,False
@@ -3911,14 +3911,14 @@ PSCT,PSCT,Invesco S&P SmallCap Information Technology ETF,Q,False
 PSCU,PSCU,Invesco S&P SmallCap Utilities & Communication Services ETF,Q,False
 PSCW,PSCW,Pacer Swan SOS Conservative (April) ETF,Z,False
 PSCX,PSCX,Pacer Swan SOS Conservative (January) ETF,Z,False
-PSDM,PSDM,PGIM Short Duration Multi-Sector Bond ETF,Z,True
+PSDM,PSDM,PGIM Short Duration Multi-Sector Bond ETF,Z,False
 PSEP,PSEP,Innovator U.S. Equity Power Buffer ETF - September,Z,False
 PSFD,PSFD,Pacer Swan SOS Flex (January) ETF,Z,False
 PSFF,PSFF,Pacer Swan SOS Fund of Funds ETF,Z,False
 PSFJ,PSFJ,Pacer Swan SOS Flex (July) ETF,Z,False
 PSFM,PSFM,Pacer Swan SOS Flex (April) ETF,Z,False
 PSFO,PSFO,Pacer Swan SOS Flex (October) ETF,Z,False
-PSH,PSH,PGIM Short Duration High Yield ETF,Z,True
+PSH,PSH,PGIM Short Duration High Yield ETF,Z,False
 PSI,PSI,Invesco Semiconductors ETF,P,False
 PSIL,PSIL,AdvisorShares Psychedelics ETF,P,False
 PSK,PSK,State Street SPDR ICE Preferred Securities ETF,P,False
@@ -3934,7 +3934,7 @@ PSQ,PSQ,ProShares Short QQQ,P,True
 PSQA,PSQA,Palmer Square CLO Senior Debt ETF,P,False
 PSQO,PSQO,Palmer Square Credit Opportunities ETF,P,False
 PSR,PSR,Invesco Active U.S. Real Estate Fund,P,False
-PST,PST,ProShares UltraShort Lehman 7-10 Year Treasury,P,False
+PST,PST,ProShares UltraShort Lehman 7-10 Year Treasury,P,True
 PSTP,PSTP,Innovator Power Buffer Step-Up Strategy ETF,P,False
 PSTR,PSTR,PeakShares Sector Rotation ETF,Q,False
 PSWD,PSWD,Xtrackers Cybersecurity Select Equity ETF,Q,False
@@ -3952,9 +3952,9 @@ PTNT,PTNT,Corgi IP Licensing & Royalties ETF,Z,False
 PTRB,PTRB,PGIM Total Return Bond ETF,P,False
 PUI,PUI,Invesco Dorsey Wright Utilities Momentum ETF,Q,False
 PUL,PUL,GraniteShares 2x Long P Daily ETF,Q,True
-PULS,PULS,PGIM Ultra Short Bond ETF,P,True
+PULS,PULS,PGIM Ultra Short Bond ETF,P,False
 PUR,PUR,Defiance Daily Target 2X Long PURR ETF,Q,True
-PUSH,PUSH,PGIM Ultra Short Municipal Bond ETF,P,True
+PUSH,PUSH,PGIM Ultra Short Municipal Bond ETF,P,False
 PVAL,PVAL,Putnam Focused Large Cap Value ETF,P,False
 PVEX,PVEX,TrueShares ConVex Protect ETF,Z,False
 PVI,PVI,Invesco Floating Rate Municipal Income ETF,P,False
@@ -4032,7 +4032,7 @@ QGRD,QGRD,Horizon Nasdaq-100 Defined Risk ETF,Q,False
 QGRO,QGRO,American Century U.S. Quality Growth ETF,P,False
 QGRW,QGRW,WisdomTree U.S. Quality Growth Fund,P,False
 QHY,QHY,WisdomTree U.S. High Yield Corporate Bond Fund,Z,False
-QID,QID,ProShares UltraShort QQQ,P,False
+QID,QID,ProShares UltraShort QQQ,P,True
 QIDX,QIDX,Indexperts Quality Earnings Focused ETF,P,False
 QIG,QIG,WisdomTree U.S. Corporate Bond Fund,Z,False
 QINT,QINT,American Century Quality Diversified International ETF,P,False
@@ -4067,7 +4067,7 @@ QQA,QQA,Invesco QQQ Income Advantage ETF,Q,False
 QQAU,QQAU,Corgi Growth & Technology 15% Structured Buffer ETF - August Series,Z,False
 QQBF,QQBF,FT Vest Nasdaq-100 Quarterly 15 Buffer ETF,Z,False
 QQDH,QQDH,Tuttle Capital Innovation 100 Income & Hedge ETF,Z,False
-QQDN,QQDN,ProShares UltraShort QQQ Mega,Q,False
+QQDN,QQDN,ProShares UltraShort QQQ Mega,Q,True
 QQEW,QQEW,First Trust Nasdaq-100 Select Equal Weight ETF,Q,False
 QQH,QQH,HCM Defender 100 Index ETF,P,False
 QQHG,QQHG,Invesco QQQ Hedged Advantage ETF,Q,False
@@ -4099,7 +4099,7 @@ QQXL,QQXL,ProShares Ultra QQQ Top 30,Q,True
 QQXT,QQXT,First Trust NASDAQ-100 Ex-Technology Sector Index Fund,Q,False
 QRMI,QRMI,Global X NASDAQ 100 Risk Managed Income ETF,Q,False
 QSE,QSE,Corgi Growth & Technology 10% Structured Buffer ETF - September Series,Z,False
-QSIG,QSIG,WisdomTree U.S. Short Term Corporate Bond Fund,Z,True
+QSIG,QSIG,WisdomTree U.S. Short Term Corporate Bond Fund,Z,False
 QSIX,QSIX,Pacer Metaurus Nasdaq 100 Dividend Multiplier 600 ETF,Q,False
 QSML,QSML,WisdomTree U.S. SmallCap Quality Growth Fund,Q,False
 QSOL,QSOL,Invesco Galaxy Solana ETF,Z,False
@@ -4146,7 +4146,7 @@ RAML,RAML,Leverage Shares 2X Long Memory Daily ETF,Z,True
 RAMZ,RAMZ,T-REX 2X Inverse DRAM Daily Target ETF,Z,True
 RANK,RANK,Defiance KSM TipRanks Analyst ETF,P,False
 RAUS,RAUS,RACWI US ETF,Q,False
-RAVI,RAVI,Northern Trust Ultra-Short Fixed Income ETF,P,True
+RAVI,RAVI,Northern Trust Ultra-Short Fixed Income ETF,P,False
 RB,RB,ProShares Russell 2000 Dynamic Buffer ETF,Z,False
 RBIL,RBIL,F/m Ultrashort Treasury Inflation-Protected Security (TIPS) ETF,Q,False
 RBLD,RBLD,First Trust Alerian US NextGen Infrastructure ETF,P,False
@@ -4189,7 +4189,7 @@ REMX,REMX,VanEck Rare Earth and Strategic Metals ETF,P,False
 RESM,RESM,Columbia Research Enhanced Small Cap ETF,P,False
 RETL,RETL,Direxion Daily Retail Bull 3X ETF,P,True
 REVS,REVS,Columbia Research Enhanced Value ETF,P,False
-REW,REW,ProShares UltraShort Technology,P,False
+REW,REW,ProShares UltraShort Technology,P,True
 REXC,REXC,Sprott Rare Earths Ex-China ETF,Q,False
 REZ,REZ,iShares Residential and Multisector Real Estate ETF,P,False
 RFCI,RFCI,ALPS Dynamic Core Income ETF,P,False
@@ -4320,7 +4320,7 @@ RWM,RWM,ProShares Short Russell2000,P,True
 RWO,RWO,State Street SPDR Dow Jones Global Real Estate ETF,P,False
 RWR,RWR,State Street SPDR Dow Jones REIT ETF,P,False
 RWX,RWX,State Street SPDR Dow Jones International Real Estate ETF,P,False
-RXD,RXD,ProShares UltraShort Health Care,P,False
+RXD,RXD,ProShares UltraShort Health Care,P,True
 RXI,RXI,iShares Global Consumer Discretionary ETF,P,False
 RXL,RXL,ProShares Ultra Health Care,P,True
 RYLD,RYLD,Global X Russell 2000 Covered Call ETF,P,False
@@ -4343,12 +4343,12 @@ SBAR,SBAR,Simplify Barrier Income ETF,P,False
 SBB,SBB,ProShares Short SmallCap600,P,True
 SBIL,SBIL,Simplify Government Money Market ETF,P,False
 SBIO,SBIO,ALPS Medical Breakthroughs ETF,P,False
-SBIT,SBIT,ProShares UltraShort Bitcoin ETF,P,False
-SBND,SBND,Columbia Short Duration Bond ETF,P,True
+SBIT,SBIT,ProShares UltraShort Bitcoin ETF,P,True
+SBND,SBND,Columbia Short Duration Bond ETF,P,False
 SCA,SCA,GraniteShares Autocallable SMCI ETF,Q,False
 SCAP,SCAP,Infrastructure Capital Small Cap Income ETF,P,False
 SCAU,SCAU,Corgi U.S. Small-Cap 15% Structured Buffer ETF - August Series,Z,False
-SCC,SCC,ProShares UltraShort Consumer Discretionary,P,False
+SCC,SCC,ProShares UltraShort Consumer Discretionary,P,True
 SCCR,SCCR,Schwab Core Bond ETF,P,False
 SCDS,SCDS,JPMorgan Fundamental Data Science Small Core ETF,Q,False
 SCDV,SCDV,Bahl & Gaynor Small Cap Dividend ETF,P,False
@@ -4366,7 +4366,7 @@ SCHI,SCHI,Schwab 5-10 Year Corporate Bond ETF,P,False
 SCHJ,SCHJ,Schwab 1-5 Year Corporate Bond ETF,P,False
 SCHK,SCHK,Schwab 1000 Index ETF,P,False
 SCHM,SCHM,Schwab U.S. Mid Cap ETF,P,False
-SCHO,SCHO,Schwab Short-Term U.S. Treasury ETF,P,True
+SCHO,SCHO,Schwab Short-Term U.S. Treasury ETF,P,False
 SCHP,SCHP,Schwab U.S. TIPS ETF,P,False
 SCHQ,SCHQ,Schwab Long-Term U.S. Treasury ETF,P,False
 SCHR,SCHR,Schwab Intermediate-Term U.S. Treasury ETF,P,False
@@ -4384,30 +4384,30 @@ SCMB,SCMB,Schwab Municipal Bond ETF,P,False
 SCMC,SCMC,Sterling Capital Multi-Strategy Income ETF,Z,False
 SCMY,SCMY,Corgi U.S. Small-Cap 15% Structured Buffer ETF - May Series,Z,False
 SCNM,SCNM,Sterling Capital National Municipal Bond ETF,Z,False
-SCO,SCO,ProShares UltraShort Bloomberg Crude Oil,P,False
+SCO,SCO,ProShares UltraShort Bloomberg Crude Oil,P,True
 SCOP,SCOP,Sprott Physical Copper Trust Units,P,False
 SCOW,SCOW,Pacer S&P SmallCap 600 Quality FCF Aristocrats ETF,Z,False
-SCSB,SCSB,Sterling Capital Short Duration Bond ETF,Z,True
+SCSB,SCSB,Sterling Capital Short Duration Bond ETF,Z,False
 SCSE,SCSE,Corgi U.S. Small-Cap 15% Structured Buffer ETF - September Series,Z,False
-SCUB,SCUB,Sterling Capital Ultra Short Bond ETF,Z,True
-SCUS,SCUS,Schwab Ultra-Short Income ETF,P,True
+SCUB,SCUB,Sterling Capital Ultra Short Bond ETF,Z,False
+SCUS,SCUS,Schwab Ultra-Short Income ETF,P,False
 SCYB,SCYB,Schwab High Yield Bond ETF,P,False
 SCZ,SCZ,iShares MSCI EAFE Small-Cap ETF,Q,False
 SDCI,SDCI,USCF SummerHaven Dynamic Commodity Strategy No K-1 Fund,P,False
-SDCP,SDCP,Virtus Newfleet Short Duration Core Plus Bond ETF,P,True
-SDD,SDD,ProShares UltraShort SmallCap600,P,False
+SDCP,SDCP,Virtus Newfleet Short Duration Core Plus Bond ETF,P,False
+SDD,SDD,ProShares UltraShort SmallCap600,P,True
 SDEM,SDEM,Global X MSCI SuperDividend Emerging Markets ETF,P,False
-SDFI,SDFI,AB Short Duration Income ETF,P,True
+SDFI,SDFI,AB Short Duration Income ETF,P,False
 SDG,SDG,iShares MSCI Global Sustainable Development Goals ETF,Q,False
 SDIV,SDIV,Global X SuperDividend ETF,P,False
 SDMF,SDMF,Simplify DBi CTA Managed Futures Index ETF,P,False
 SDOG,SDOG,ALPS Sector Dividend Dogs ETF,P,False
 SDOW,SDOW,UltraPro Short Dow30,P,True
-SDP,SDP,ProShares UltraShort Utilities,P,False
-SDS,SDS,ProShares UltraShort S&P500,P,False
-SDSI,SDSI,American Century Short Duration Strategic Income ETF,Q,True
+SDP,SDP,ProShares UltraShort Utilities,P,True
+SDS,SDS,ProShares UltraShort S&P500,P,True
+SDSI,SDSI,American Century Short Duration Strategic Income ETF,Q,False
 SDTY,SDTY,YieldMax S&P 500 0DTE Covered Call Strategy ETF,Q,False
-SDUR,SDUR,Aristotle Short Term Income ETF,P,True
+SDUR,SDUR,Aristotle Short Term Income ETF,P,False
 SDVD,SDVD,FT Vest SMID Rising Dividend Achievers Target Income ETF,Z,False
 SDVY,SDVY,First Trust SMID Cap Rising Dividend Achievers ETF,Q,False
 SDY,SDY,State Street SPDR S&P Dividend ETF,P,False
@@ -4460,12 +4460,12 @@ SGRW,SGRW,Harbor Active Small Cap Growth ETF,P,False
 SGVA,SGVA,F/m Accumulator Ultrashort Treasury Fund,Q,False
 SGVT,SGVT,Schwab Government Money Market ETF,P,False
 SH,SH,ProShares Short S&P500,P,True
-SHAG,SHAG,WisdomTree Yield Enhanced U.S. Short-Term Aggregate Bond Fund,Z,True
+SHAG,SHAG,WisdomTree Yield Enhanced U.S. Short-Term Aggregate Bond Fund,Z,False
 SHDG,SHDG,Soundwatch Hedged Equity ETF,Z,False
 SHE,SHE,State Street SPDR MSCI USA Gender Diversity ETF,P,False
 SHEH,SHEH,Shell plc ADRhedged,P,False
 SHLD,SHLD,Global X Defense Tech ETF,P,False
-SHM,SHM,State Street SPDR Nuveen ICE Short Term Municipal Bond ETF,P,True
+SHM,SHM,State Street SPDR Nuveen ICE Short Term Municipal Bond ETF,P,False
 SHNY,SHNY,"MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",P,True
 SHOC,SHOC,Strive U.S. Semiconductor ETF,N,False
 SHPP,SHPP,Pacer Industrials and Logistics ETF,P,False
@@ -4476,13 +4476,13 @@ SHRY,SHRY,First Trust Bloomberg Shareholder Yield ETF,Q,False
 SHUS,SHUS,Stratified LargeCap Hedged ETF,P,False
 SHV,SHV,iShares 0-1 Year Treasury Bond ETF,N,False
 SHY,SHY,iShares 1-3 Year Treasury Bond ETF,Q,False
-SHYD,SHYD,VanEck Short High Yield Muni ETF,Z,True
+SHYD,SHYD,VanEck Short High Yield Muni ETF,Z,False
 SHYG,SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,P,False
-SHYL,SHYL,Xtrackers Short Duration High Yield Bond ETF,P,True
-SHYM,SHYM,iShares Short Duration High Yield Muni Active ETF,Z,True
+SHYL,SHYL,Xtrackers Short Duration High Yield Bond ETF,P,False
+SHYM,SHYM,iShares Short Duration High Yield Muni Active ETF,Z,False
 SIFI,SIFI,Harbor Ares Systematic Multi-Sector Income ETF,P,False
 SIHY,SIHY,Harbor Ares Systematic High Yield ETF,P,False
-SIJ,SIJ,ProShares UltraShort Industrials,P,False
+SIJ,SIJ,ProShares UltraShort Industrials,P,True
 SIL,SIL,Global X Silver Miners ETF,P,False
 SILJ,SILJ,Amplify Junior Silver Miners ETF,P,False
 SIMS,SIMS,State Street SPDR S&P Kensho Intelligent Structures ETF,P,False
@@ -4503,13 +4503,13 @@ SIXP,SIXP,AllianzIM U.S. Large Cap 6 Month Buffer10 Mar/Sep ETF,Z,False
 SIXS,SIXS,ETC 6 Meridian Small Cap Equity ETF,P,False
 SIXZ,SIXZ,AllianzIM U.S. Large Cap 6 Month Buffer10 May/Nov ETF,Z,False
 SIZE,SIZE,iShares MSCI USA Size Factor ETF,P,False
-SJB,SJB,ProShares Short High Yield,P,True
+SJB,SJB,ProShares Short High Yield,P,False
 SJCP,SJCP,SanJac Alpha Core Plus Bond ETF,Q,False
 SJLD,SJLD,SanJac Alpha Low Duration ETF,Q,False
-SJNK,SJNK,State Street SPDR Bloomberg Short Term High Yield Bond ETF,P,True
+SJNK,SJNK,State Street SPDR Bloomberg Short Term High Yield Bond ETF,P,False
 SK,SK,Corgi SK hynix 2x Daily ETF,Z,True
 SKDD,SKDD,GraniteShares 2x Short SK Hynix Daily ETF,Q,True
-SKF,SKF,ProShares UltraShort Financials,P,False
+SKF,SKF,ProShares UltraShort Financials,P,True
 SKHL,SKHL,Direxion Daily SK Hynix Bull 2X ETF,P,True
 SKHQ,SKHQ,Leverage Shares 2X Short Sk Hynix Daily ETF,Z,True
 SKHU,SKHU,ProShares Ultra SK hynix,P,True
@@ -4520,7 +4520,7 @@ SKRE,SKRE,Tuttle Capital Daily 2X Inverse Regional Banks ETF,Q,True
 SKUU,SKUU,GraniteShares 2x Long SK Hynix Daily ETF,Q,True
 SKYU,SKYU,ProShares Ultra Cloud Computing,Q,True
 SKYY,SKYY,First Trust Cloud Computing ETF,Q,False
-SLDR,SLDR,Global X Short-Term Treasury Ladder ETF,P,True
+SLDR,SLDR,Global X Short-Term Treasury Ladder ETF,P,False
 SLJY,SLJY,Amplify SILJ Junior Silver Miners Covered Call ETF,P,False
 SLNZ,SLNZ,TCW Senior Loan ETF,N,False
 SLON,SLON,ProShares Ultra Solana ETF,P,True
@@ -4533,13 +4533,13 @@ SLVP,SLVP,iShares MSCI Global Silver and Metals Miners ETF,Z,False
 SLVR,SLVR,Sprott Silver Miners & Physical Silver ETF,Q,False
 SLVX,SLVX,Nicholas Silver Income ETF,P,False
 SLVY,SLVY,FT Vest Silver Strategy & Target Income ETF,Z,False
-SLWS,SLWS,Wisdom Short Duration Income ETF,P,True
+SLWS,SLWS,Wisdom Short Duration Income ETF,P,False
 SLX,SLX,VanEck Steel ETF,P,False
 SLYG,SLYG,State Street SPDR S&P 600 Small Cap Growth ETF,P,False
 SLYV,SLYV,State Street SPDR S&P 600 Small Cap Value ETF,P,False
 SMAX,SMAX,iShares Large Cap Max Buffer Sep ETF,Z,False
 SMAY,SMAY,FT Vest U.S. Small Cap Moderate Buffer ETF - May,Z,False
-SMB,SMB,VanEck Short Muni ETF,Z,True
+SMB,SMB,VanEck Short Muni ETF,Z,False
 SMBS,SMBS,Schwab Mortgage-Backed Securities ETF,P,False
 SMCC,SMCC,Corgi SMCI 2x Daily ETF,Z,True
 SMCL,SMCL,GraniteShares 2x Long SMCI Daily ETF,Q,True
@@ -4564,9 +4564,9 @@ SMLF,SMLF,iShares U.S. Small-Cap Equity Factor ETF,P,False
 SMLL,SMLL,Harbor Active Small Cap ETF,P,False
 SMLV,SMLV,State Street SPDR US Small Cap Low Volatility Index ETF,P,False
 SMMD,SMMD,iShares Russell 2500 ETF,Z,False
-SMMU,SMMU,Short Term Municipal Bond Active Exchange-Traded Fund,P,True
+SMMU,SMMU,Short Term Municipal Bond Active Exchange-Traded Fund,P,False
 SMMV,SMMV,iShares MSCI USA Small-Cap Min Vol Factor ETF,Z,False
-SMN,SMN,ProShares UltraShort Materials,P,False
+SMN,SMN,ProShares UltraShort Materials,P,True
 SMNG,SMNG,xETFs Samsung Group ETF,Q,False
 SMOG,SMOG,VanEck Low Carbon Energy ETF,P,False
 SMOM,SMOM,Symmetry Panoramic Sector Momentum ETF,Q,False
@@ -4667,7 +4667,7 @@ SPOG,SPOG,Leverage Shares 2X Long SPOT Daily ETF,Q,True
 SPPP,SPPP,Sprott Physical Platinum and Palladium Trust,P,False
 SPRE,SPRE,SP Funds S&P Global REIT Sharia ETF,P,False
 SPRX,SPRX,Spear Alpha ETF,Q,False
-SPSB,SPSB,State Street SPDR Portfolio Short Term Corporate Bond Index ETF,P,True
+SPSB,SPSB,State Street SPDR Portfolio Short Term Corporate Bond Index ETF,P,False
 SPSK,SPSK,SP Funds Dow Jones Global Sukuk ETF,P,False
 SPSM,SPSM,State Street SPDR Portfolio S&P 600 Small Cap ETF,P,False
 SPTB,SPTB,State Street SPDR Portfolio Treasury Index ETF,P,False
@@ -4675,7 +4675,7 @@ SPTE,SPTE,SP Funds S&P Global Technology ETF,P,False
 SPTI,SPTI,State Street SPDR Portfolio Intermediate Term Treasury Index ETF,P,False
 SPTL,SPTL,State Street SPDR Portfolio Long Term Treasury Index ETF,P,False
 SPTM,SPTM,State Street SPDR Portfolio S&P 1500 Composite Stock Market ETF,P,False
-SPTS,SPTS,State Street SPDR Portfolio Short Term Treasury Index ETF,P,True
+SPTS,SPTS,State Street SPDR Portfolio Short Term Treasury Index ETF,P,False
 SPTU,SPTU,State Street SPDR Portfolio Ultra Short T-Bill Index ETF,P,True
 SPUC,SPUC,Simplify US Equity Income ETF,P,False
 SPUS,SPUS,SP Funds S&P 500 Sharia Industry Exclusions ETF,P,False
@@ -4717,12 +4717,12 @@ SRHQ,SRHQ,SRH U.S. Quality GARP ETF,P,False
 SRHR,SRHR,SRH REIT Covered Call ETF,P,False
 SRLN,SRLN,State Street Blackstone Senior Loan ETF,P,False
 SROI,SROI,Calamos Antetokounmpo Global Sustainable Equities ETF,P,False
-SRS,SRS,ProShares UltraShort Real Estate,P,False
+SRS,SRS,ProShares UltraShort Real Estate,P,True
 SRTY,SRTY,ProShares UltraPro Short Russell2000,P,True
 SRVR,SRVR,Pacer Data & Infrastructure Real Estate ETF,P,False
 SSCP,SSCP,SMART Small Cap ETF,P,False
 SSFI,SSFI,Day Hagan Smart Sector Fixed Income ETF,P,False
-SSG,SSG,ProShares UltraShort Semiconductors,P,False
+SSG,SSG,ProShares UltraShort Semiconductors,P,True
 SSK,SSK,REX-Osprey SOL + Staking ETF,Z,False
 SSMG,SSMG,Virtus Silvant Small/Mid Growth ETF,P,False
 SSO,SSO,ProShares Ultra S&P500,P,True
@@ -4731,8 +4731,8 @@ SSPY,SSPY,Stratified LargeCap Index ETF,P,False
 SSS,SSS,CYBER HORNET S&P 500 and Solana 75/25 Strategy ETF,Q,False
 SSUS,SSUS,Day Hagan Smart Sector ETF,P,False
 SSXU,SSXU,Day Hagan Smart Sector International ETF,P,False
-STAX,STAX,Nomura Tax-Free USA Short Term ETF,P,True
-STBF,STBF,Performance Trust Short Term Bond ETF,Z,True
+STAX,STAX,Nomura Tax-Free USA Short Term ETF,P,False
+STBF,STBF,Performance Trust Short Term Bond ETF,Z,False
 STBQ,STBQ,Amplify Stablecoin Technology Leaders ETF,P,False
 STCE,STCE,Schwab Crypto Thematic Natural Language Processing ETF,P,False
 STEN,STEN,iShares Large Cap 10% Target Buffer Sep ETF,Z,False
@@ -4743,7 +4743,7 @@ STLR,STLR,Stellar ETF,Z,False
 STLU,STLU,2x Stellar ETF,Z,True
 STMX,STMX,Leverage Shares 2X Long STM Daily ETF,Z,True
 STNC,STNC,Hennessy Sustainable ETF,Q,False
-STOT,STOT,State Street DoubleLine Short Duration Total Return Tactical ETF,Z,True
+STOT,STOT,State Street DoubleLine Short Duration Total Return Tactical ETF,Z,False
 STOX,STOX,Horizon Core Equity ETF,Z,False
 STPZ,STPZ,PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund,P,False
 STRN,STRN,SMART Trend 25 ETF,P,False
@@ -4759,7 +4759,7 @@ STXU,STXU,Leverage Shares 2X Long STX Daily ETF,Z,True
 STXV,STXV,Strive 1000 Value ETF,N,False
 STXX,STXX,Tradr 2X Long STX Daily ETF,Z,True
 STYL,STYL,Corgi Lifestyle Brands ETF,Z,False
-SUB,SUB,iShares Short-Term National Muni Bond ETF,P,True
+SUB,SUB,iShares Short-Term National Muni Bond ETF,P,False
 SUIL,SUIL,2x Sui ETF,Z,True
 SUIS,SUIS,Canary Staked SUI ETF,Q,False
 SUPP,SUPP,TCW Transform Supply Chain ETF,Q,False
@@ -4777,16 +4777,16 @@ SVXY,SVXY,ProShares Short VIX Short Term Futures ETF,Z,True
 SWAN,SWAN,Amplify BlackSwan Growth & Treasury Core ETF,P,False
 SWP,SWP,SWP Growth & Income ETF,Q,False
 SXQG,SXQG,ETC 6 Meridian Quality Growth ETF,P,False
-SYFI,SYFI,AB Short Duration High Yield ETF,P,True
+SYFI,SYFI,AB Short Duration High Yield ETF,P,False
 SYLD,SYLD,Cambria Shareholder Yield ETF,Z,False
 SYSB,SYSB,iShares Systematic Bond ETF,Z,False
 SYZ,SYZ,Lazard US Systematic Small Cap Equity ETF,Q,False
-SZK,SZK,ProShares UltraShort Consumer Staples,P,False
+SZK,SZK,ProShares UltraShort Consumer Staples,P,True
 TABD,TABD,Transamerica Bond Active ETF,P,False
 TACK,TACK,Fairlead Tactical Sector ETF,P,False
 TACN,TACN,T. Rowe Price Active Core International Equity ETF,P,False
 TACU,TACU,T. Rowe Price Active Core U.S. Equity ETF,P,False
-TAFI,TAFI,AB Tax-Aware Short Duration Municipal ETF,P,True
+TAFI,TAFI,AB Tax-Aware Short Duration Municipal ETF,P,False
 TAFL,TAFL,AB Tax-Aware Long Municipal ETF,P,False
 TAFM,TAFM,AB Tax-Aware Intermediate Municipal ETF,P,False
 TAGG,TAGG,T. Rowe Price QM U.S. Bond ETF,P,False
@@ -4804,18 +4804,18 @@ TAXE,TAXE,Intermediate Municipal Income ETF,Q,False
 TAXF,TAXF,American Century Diversified Municipal Bond ETF,P,False
 TAXI,TAXI,Northern Trust Intermediate Tax-Exempt Bond ETF,Q,False
 TAXM,TAXM,BondBloxx IR+M Tax-Aware ETF for Massachusetts Residents,P,False
-TAXS,TAXS,Northern Trust Short-Term Tax-Exempt Bond ETF,Q,True
+TAXS,TAXS,Northern Trust Short-Term Tax-Exempt Bond ETF,Q,False
 TAXT,TAXT,Northern Trust Tax-Exempt Bond ETF,Q,False
-TAXX,TAXX,BondBloxx IR+M Tax-Aware Short Duration ETF,P,True
+TAXX,TAXX,BondBloxx IR+M Tax-Aware Short Duration ETF,P,False
 TBF,TBF,ProShares Short 20+ Year Treasury,P,True
 TBFC,TBFC,The Brinsmere Fund  Conservative ETF,P,False
 TBFG,TBFG,The Brinsmere Fund Growth ETF,P,False
 TBG,TBG,TBG Dividend Focus ETF,P,False
 TBIL,TBIL,F/m US Treasury 3 Month Bill Fund,Q,False
 TBJL,TBJL,Innovator 20  Year Treasury Bond 9 Buffer ETF - July,Z,False
-TBLL,TBLL,Invesco Short Term Treasury ETF,P,True
+TBLL,TBLL,Invesco Short Term Treasury ETF,P,False
 TBLU,TBLU,Tortoise Global Water ETF,N,False
-TBT,TBT,ProShares UltraShort Lehman 20  Year Treasury,P,False
+TBT,TBT,ProShares UltraShort Lehman 20  Year Treasury,P,True
 TBUX,TBUX,T. Rowe Price Ultra Short-Term Bond ETF,P,True
 TBX,TBX,ProShares Short 7 10 Year Treasury,P,True
 TBXU,TBXU,Direxion Daily Biotech Top 5 Bull 2X ETF,P,True
@@ -4959,7 +4959,7 @@ TMH,TMH,Toyota Motor Corporation ADRhedged,P,False
 TMID,TMID,T. Rowe Price Mid Cap Equity Research ETF,Q,False
 TMLP,TMLP,Tortoise MLP ETF,P,False
 TMNL,TMNL,T. Rowe Price Long Municipal Income ETF,Q,False
-TMNS,TMNS,T. Rowe Price Short Municipal Income ETF,Q,True
+TMNS,TMNS,T. Rowe Price Short Municipal Income ETF,Q,False
 TMSF,TMSF,T. Rowe Price Multi-Sector Income ETF,Q,False
 TMSL,TMSL,T. Rowe Price Small-Mid Cap ETF,P,False
 TMV,TMV,Direxion Daily 20-Year Treasury Bear 3X,P,True
@@ -5080,14 +5080,14 @@ TTT,TTT,ProShares UltraPro Short 20 Year Treasury,P,True
 TTTT,TTTT,Corgi FTSE U.S. TIPS Bond ETF,Z,False
 TTXD,TTXD,Direxion Daily Technology Top 5 Bear 2X ETF,P,True
 TTXU,TTXU,Direxion Daily Technology Top 5 Bull 2X ETF,P,True
-TUA,TUA,Simplify Short Term Treasury Futures Strategy ETF,P,True
+TUA,TUA,Simplify Short Term Treasury Futures Strategy ETF,P,False
 TUG,TUG,STF Tactical Growth ETF,Q,False
 TUR,TUR,iShares MSCI Turkey ETF,Q,False
 TURF,TURF,T. Rowe Price Natural Resources ETF,Q,False
-TUSB,TUSB,Thrivent Ultra Short Bond ETF,P,True
-TUSI,TUSI,Touchstone Ultra Short Income ETF,Z,True
+TUSB,TUSB,Thrivent Ultra Short Bond ETF,P,False
+TUSI,TUSI,Touchstone Ultra Short Income ETF,Z,False
 TVAL,TVAL,T. Rowe Price Value ETF,P,False
-TWM,TWM,ProShares UltraShort Russell2000,P,False
+TWM,TWM,ProShares UltraShort Russell2000,P,True
 TWOX,TWOX,iShares Large Cap Accelerated Outcome ETF,Z,False
 TWSC,TWSC,Corgi TSM 2x Daily ETF,Z,True
 TXBC,TXBC,21Shares FTSE Crypto 10 ex-BTC Index ETF,P,False
@@ -5148,7 +5148,7 @@ UJB,UJB,ProShares Ultra High Yield ETF,P,True
 UJUL,UJUL,Innovator U.S. Equity Ultra Buffer ETF - July,Z,True
 UJUN,UJUN,Innovator U.S. Equity Ultra Buffer ETF - June,Z,True
 ULE,ULE,ProShares Ultra Euro,P,True
-ULST,ULST,State Street Ultra Short Term Bond ETF,P,True
+ULST,ULST,State Street Ultra Short Term Bond ETF,P,False
 ULTY,ULTY,YieldMax Ultra Option Income Strategy ETF,P,True
 ULVM,ULVM,VictoryShares US Value Momentum ETF,Q,False
 UMAL,UMAL,Defiance Daily Target 2X Long UMAC ETF,Z,True
@@ -5229,7 +5229,7 @@ USSG,USSG,Xtrackers MSCI USA Selection Equity ETF,P,False
 USSH,USSH,WisdomTree 1-3 Year Laddered Treasury Fund,Q,False
 USSX,USSX,Corgi U.S. Small-Cap 2x Daily ETF,Z,True
 UST,UST,ProShares Ultra 7-10 Year Treasury,P,True
-USTB,USTB,VictoryShares Short-Term Bond ETF,Q,True
+USTB,USTB,VictoryShares Short-Term Bond ETF,Q,False
 USVM,USVM,VictoryShares US Small Mid Cap Value Momentum ETF,Q,False
 USVN,USVN,US Treasury 7 Year Note ETF,Q,False
 USX,USX,Corgi Total U.S. Market 2x Daily ETF,Z,True
@@ -5290,7 +5290,7 @@ VCOB,VCOB,Voya Core Bond ETF,P,False
 VCR,VCR,Vanguard Consumer Discretion ETF,P,False
 VCRB,VCRB,Vanguard Core Bond ETF,Q,False
 VCRM,VCRM,Vanguard Core Tax-Exempt Bond ETF,Z,False
-VCSH,VCSH,Vanguard Short-Term Corporate Bond ETF,Q,True
+VCSH,VCSH,Vanguard Short-Term Corporate Bond ETF,Q,False
 VDC,VDC,Vanguard Consumer Staples ETF,P,False
 VDE,VDE,Vanguard Energy ETF,P,False
 VDG,VDG,Vanguard Developed Markets ex-US Growth Index ETF,Z,False
@@ -5323,11 +5323,11 @@ VGK,VGK,Vanguard FTSEEuropean ETF,P,False
 VGLT,VGLT,Vanguard Long-Term Treasury ETF,Q,False
 VGMS,VGMS,Vanguard Multi-Sector Income Bond ETF,Z,False
 VGRO,VGRO,Virtus Silvant Growth Opportunities ETF,P,False
-VGSH,VGSH,Vanguard Short-Term Treasury ETF,Q,True
+VGSH,VGSH,Vanguard Short-Term Treasury ETF,Q,False
 VGSR,VGSR,Vert Global Sustainable Real Estate ETF,Q,False
 VGT,VGT,Vanguard Information Tech ETF,P,False
 VGTX,VGTX,XFUNDS Technology Income ETF,P,False
-VGUS,VGUS,Vanguard Ultra-Short Treasury ETF,Q,True
+VGUS,VGUS,Vanguard Ultra-Short Treasury ETF,Q,False
 VGVT,VGVT,Vanguard Government Securities Active ETF,P,False
 VHT,VHT,Vanguard Health Care ETF,P,False
 VIAG,VIAG,Leverage Shares 2X Long VIAV Daily ETF,Z,True
@@ -5339,17 +5339,17 @@ VIOO,VIOO,Vanguard S&P Small-Cap 600 ETF,P,False
 VIOV,VIOV,Vanguard S&P Small-Cap 600 Value ETF,P,False
 VIS,VIS,Vanguard Industrials ETF,P,False
 VIXM,VIXM,VIX Mid-Term Futures ETF,Z,False
-VIXY,VIXY,VIX Short-Term Futures ETF,Z,True
+VIXY,VIXY,VIX Short-Term Futures ETF,Z,False
 VLU,VLU,State Street SPDR S&P 1500 Value Tilt ETF,P,False
 VLUE,VLUE,iShares MSCI USA Value Factor ETF,Z,False
 VMAX,VMAX,Hartford US Value ETF,Z,False
 VMBS,VMBS,Vanguard Mortgage-Backed Securities ETF,Q,False
 VMHY,VMHY,VictoryShares Municipal High Yield ETF,Q,False
 VMSB,VMSB,Voya Multi-Sector Income ETF,P,False
-VMSD,VMSD,VictoryShares Short-Duration Municipal ETF,Q,True
+VMSD,VMSD,VictoryShares Short-Duration Municipal ETF,Q,False
 VNAM,VNAM,Global X MSCI Vietnam ETF,P,False
 VNIE,VNIE,Vontobel International Equity Active ETF,P,False
-VNLA,VNLA,Janus Henderson Short Duration Income ETF,P,True
+VNLA,VNLA,Janus Henderson Short Duration Income ETF,P,False
 VNM,VNM,VanEck Vietnam ETF,Z,False
 VNQ,VNQ,Vanguard Real Estate ETF,P,False
 VNQI,VNQI,Vanguard Global ex-U.S. Real Estate ETF,Q,False
@@ -5381,10 +5381,10 @@ VRIG,VRIG,Invesco Variable Rate Investment Grade ETF,Q,False
 VRP,VRP,Invesco Variable Rate Preferred ETF,P,False
 VRTL,VRTL,GraniteShares 2x Long VRT Daily ETF,Q,True
 VSDA,VSDA,VictoryShares Dividend Accelerator ETF,Q,False
-VSDB,VSDB,Vanguard Short Duration Bond ETF,Z,True
-VSDM,VSDM,Vanguard Short Duration Tax-Exempt Bond ETF,Z,True
+VSDB,VSDB,Vanguard Short Duration Bond ETF,Z,False
+VSDM,VSDM,Vanguard Short Duration Tax-Exempt Bond ETF,Z,False
 VSGX,VSGX,Vanguard ESG International Stock ETF,Z,False
-VSHY,VSHY,Virtus Newfleet Short Duration High Yield Bond ETF,P,True
+VSHY,VSHY,Virtus Newfleet Short Duration High Yield Bond ETF,P,False
 VSLU,VSLU,Applied Finance Valuation Large Cap ETF,P,False
 VSMV,VSMV,VictoryShares US Multi-Factor Minimum Volatility ETF,Q,False
 VSOL,VSOL,VanEck Solana ETF,Q,False
@@ -5396,11 +5396,11 @@ VTEB,VTEB,Vanguard Tax-Exempt Bond ETF,P,False
 VTEC,VTEC,Vanguard California Tax-Exempt Bond ETF,Z,False
 VTEI,VTEI,Vanguard Tax-Managed Funds Vanguard Intermediate-Term Tax-Exempt Bond ETF,Z,False
 VTEL,VTEL,Vanguard Long-Term Tax-Exempt Bond ETF,Z,False
-VTES,VTES,Vanguard Wellington Fund Vanguard Short-Term Tax Exempt Bond ETF,P,True
+VTES,VTES,Vanguard Wellington Fund Vanguard Short-Term Tax Exempt Bond ETF,P,False
 VTG,VTG,Vanguard Total Treasury ETF,P,False
 VTHR,VTHR,Vanguard Russell 3000 ETF,Q,False
 VTI,VTI,Vanguard Morningstar Total Stock Market ETF,P,False
-VTIP,VTIP,Vanguard Short-Term Inflation-Protected Securities Index Fund ETF Shares,Q,True
+VTIP,VTIP,Vanguard Short-Term Inflation-Protected Securities Index Fund ETF Shares,Q,False
 VTP,VTP,Vanguard Total Inflation-Protected Securities ETF,P,False
 VTV,VTV,Vanguard Morningstar Value ETF,P,False
 VTVX,VTVX,XFUNDS Value Income ETF,P,False
@@ -5409,10 +5409,10 @@ VTWO,VTWO,Vanguard Russell 2000 ETF,Q,False
 VTWV,VTWV,Vanguard Russell 2000 Value ETF,Q,False
 VUG,VUG,Vanguard Morningstar Growth ETF,P,False
 VUS,VUS,Virtus US Dividend ETF,P,False
-VUSB,VUSB,Vanguard Ultra-Short Bond ETF,Z,True
+VUSB,VUSB,Vanguard Ultra-Short Bond ETF,Z,False
 VUSE,VUSE,Vident U.S. Equity Strategy ETF,P,False
 VUSG,VUSG,Vanguard Wellington U.S. Growth Active ETF,Z,False
-VUSI,VUSI,Voya Ultra Short Income ETF,P,True
+VUSI,VUSI,Voya Ultra Short Income ETF,P,False
 VUSV,VUSV,Vanguard Wellington U.S. Value Active ETF,Z,False
 VV,VV,Vanguard Morningstar Large-Cap ETF,P,False
 VWO,VWO,Vanguard FTSE Emerging Markets ETF,P,False
@@ -5485,7 +5485,7 @@ WQTM,WQTM,WisdomTree Quantum Computing Fund,Z,False
 WR,WR,Corgi U.S. War Machine ETF,Z,False
 WRND,WRND,NYLIM Global Equity R&D Leaders ETF,Q,False
 WRTH,WRTH,Worth Charting Options Income ETF,Q,False
-WSDB,WSDB,Weitz Short Duration Bond ETF,P,True
+WSDB,WSDB,Weitz Short Duration Bond ETF,P,False
 WSGE,WSGE,Warren Street Global Equity ETF,Q,False
 WSLS,WSLS,WisdomTree Efficient Long/Short U.S. SmallCap Equity Fund,F,True
 WSMD,WSMD,Wasatch Small/Mid Cap ETF,P,False
@@ -5530,7 +5530,7 @@ XBIX,XBIX,Corgi U.S. Biotech 2x Daily ETF,Z,True
 XBJA,XBJA,Innovator U.S. Equity Accelerated 9 Buffer ETF - January,Z,False
 XBJL,XBJL,Innovator U.S. Equity Accelerated 9 Buffer ETF - July,Z,False
 XBOC,XBOC,Innovator U.S. Equity Accelerated 9 Buffer ETF - October,Z,False
-XBOX,XBOX,Roundhill Ultra Short Duration No Dividend Target ETF,Z,True
+XBOX,XBOX,Roundhill Ultra Short Duration No Dividend Target ETF,Z,False
 XBTY,XBTY,GraniteShares YieldBOOST Bitcoin ETF,Q,False
 XC,XC,WisdomTree True Emerging Markets Fund,P,False
 XCCC,XCCC,BondBloxx CCC-Rated USD High Yield Corporate Bond ETF,P,False
@@ -5719,9 +5719,9 @@ YBTC,YBTC,Roundhill Bitcoin Covered Call Strategy ETF,Z,False
 YBTY,YBTY,GraniteShares YieldBoost TopYielders ETF,Q,False
 YCL,YCL,ProShares Ultra Yen,P,True
 YCLO,YCLO,Franklin BSP CLO ETF,P,False
-YCS,YCS,ProShares UltraShort Yen New,P,False
+YCS,YCS,ProShares UltraShort Yen New,P,True
 YDEC,YDEC,FT Vest International Equity Moderate Buffer ETF - December,Z,False
-YEAR,YEAR,AB Ultra Short Income ETF,P,True
+YEAR,YEAR,AB Ultra Short Income ETF,P,False
 YETH,YETH,Roundhill Ether Covered Call Strategy ETF,Z,False
 YFFI,YFFI,Indexperts Yield Focused Fixed Income ETF,P,False
 YFYA,YFYA,Yields for You Income Strategy A ETF,P,False
@@ -5775,12 +5775,12 @@ ZJUL,ZJUL,Innovator Equity Defined Protection ETF - 1 Yr July,Z,False
 ZJUN,ZJUN,Innovator Equity Defined Protection ETF - 1 Yr June,Z,False
 ZMAR,ZMAR,Innovator Equity Defined Protection ETF - 1 Yr March,Z,False
 ZMAY,ZMAY,Innovator Equity Defined Protection ETF - 1 Yr May,Z,False
-ZMUN,ZMUN,F/m Ultrashort Tax-Free Municipal ETF,Q,False
+ZMUN,ZMUN,F/m Ultrashort Tax-Free Municipal ETF,Q,True
 ZNOV,ZNOV,Innovator Equity Defined Protection ETF - 1 Yr November,Z,False
 ZOCT,ZOCT,Innovator Equity Defined Protection ETF - 1 Yr October,Z,False
 ZROZ,ZROZ,PIMCO 25  Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund,P,False
 ZSEP,ZSEP,Innovator Equity Defined Protection ETF - 1 Yr September,Z,False
-ZSL,ZSL,ProShares UltraShort Silver,P,False
+ZSL,ZSL,ProShares UltraShort Silver,P,True
 ZTAX,ZTAX,X-Square Municipal Income ETF,P,False
 ZTEN,ZTEN,F/m 10-Year Investment Grade Corporate Bond ETF,Q,False
 ZTOP,ZTOP,F/m High Yield 100 ETF,Q,False

@@ -76,6 +76,16 @@
     <div class="chart" data-draw="growth" data-source="growth"></div>
   </section>
 
+  <section id="longmix">
+    <h2>Long-term 2- and 3-ETF mixes, looking back</h2>
+    <p><span class="num" data-draw="cs" data-source="longmix_summary" data-field="win2" data-row="0">—</span> two-fund and <span class="num" data-draw="cs" data-source="longmix_summary" data-field="win3" data-row="0">—</span> three-fund mixes had higher return and lower volatility than SPY over 2011–2026 and in both halves, 2011–2019 and 2020–2026. Almost all pair a growth engine (tech XLK or semiconductors SMH) with a defensive fund: consumer staples, dividends, health care, utilities or insurance.</p>
+    <div class="tw"><table data-source="longmix" data-row-key="mix">
+      <thead><tr><th data-field="size">Funds</th><th class="left" data-field="mix">Mix</th><th data-field="cagr" data-fmt="pct">Return</th><th data-field="vol" data-fmt="pct">Vol</th><th data-field="max_drawdown" data-fmt="pct">Worst drop</th><th data-field="cagr_2020_26" data-fmt="pct">Return 20–26</th><th data-field="vol_2020_26" data-fmt="pct">Vol 20–26</th><th data-field="win36" data-fmt="pct">3-yr wins</th></tr></thead>
+      <tbody data-draw="tbl"></tbody>
+    </table></div>
+    <p class="muted">Hindsight: these were found using the whole period, so they are what worked, not what anyone could have picked in 2011. Their lead depends on tech being the best sector of the era. Searched across <span data-draw="cs" data-source="longmix_summary" data-field="distinct" data-row="0">—</span> distinct funds for pairs and the top <span data-draw="cs" data-source="longmix_summary" data-field="pool3" data-row="0">—</span> for trios, 10% weight steps, rebalanced monthly.</p>
+  </section>
+
   <section id="five">
     <h2>Last 5 years: every ETF with enough history</h2>
     <p class="muted"><span data-draw="cs" data-source="fiveyear_summary" data-field="passed" data-row="0">—</span> of <span data-draw="cs" data-source="fiveyear_summary" data-field="funds_checked" data-row="0">—</span> funds beat SPY with lower volatility and won at least half of rolling 3-year windows. This is in-sample only: nothing here has been tested on a later period yet, and many are value or international funds that rode one market phase. S&amp;P 500 copies such as VOO and IVV are left out.</p>
@@ -118,7 +128,7 @@ window.ea = {
     const n = +v;
     if (kind === 'pct') return ea.pct(n);
     if (kind === 'n2') return ea.n2(n);
-    if (Number.isInteger(n) && kind !== 'text') return ea.int(n);
+    if (Number.isInteger(n)) return ea.int(n);
     return String(v);
   },
 };

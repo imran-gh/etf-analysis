@@ -24,8 +24,11 @@ df = pd.read_csv(io.StringIO(txt), sep="|")
 df = df[df["Symbol"].notna() & ~df["Nasdaq Traded"].astype(str).str.startswith("File Creation")]
 etf = df[(df["ETF"] == "Y") & (df["Test Issue"] == "N")].copy()
 
-lev = re.compile(r"\b(2X|3X|-1X|-2X|-3X|ULTRA|ULTRAPRO|INVERSE|BEAR|SHORT|LEVERAGED|DAILY)\b", re.I)
-etf["leveraged_or_inverse"] = etf["Security Name"].str.contains(lev)
+lev = re.compile(r"\b(2X|3X|-1X|-2X|-3X|ULTRA\w*|INVERSE|BEAR|LEVERAGED?|DAILY)\b|PROSHARES ULTRA|\dX ?LEVERAGED|LEVERAGE SHARES"
+                 r"|\bSHORT\b(?![- ]?(TERM|DURATION|MATURITY|TREASURY|BOND|INCOME|CORP|HIGH|MUNI|TIPS|INVEST|GOVERN|DATED))", re.I)
+# ultra-short-duration bond funds are ordinary, unleveraged funds
+plain_bond = re.compile(r"ULTRA.?SHORT (INCOME|BOND|FIXED|TREASURY|DURATION|TERM|MUNI|GOVERN)", re.I)
+etf["leveraged_or_inverse"] = etf["Security Name"].map(lambda n: bool(lev.search(n)) and not (plain_bond.search(n) and "PROSHARES" not in n.upper()))
 etf["yf_symbol"] = etf["Symbol"].str.replace(".", "-", regex=False)
 etf = etf[["Symbol", "yf_symbol", "Security Name", "Listing Exchange", "leveraged_or_inverse"]]
 etf.columns = ["symbol", "yf_symbol", "name", "exchange", "leveraged_or_inverse"]
