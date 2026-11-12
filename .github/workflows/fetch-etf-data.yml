@@ -1,0 +1,30 @@
+name: Fetch ETF data
+
+on:
+  workflow_dispatch:        # run manually from the Actions tab on your phone
+  push:
+    paths: ["scripts/**", ".github/workflows/fetch-etf-data.yml"]
+  schedule:
+    - cron: "17 23 * * 5"   # optional: refresh every Friday after close (UTC)
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance pandas pyarrow requests
+      - run: python scripts/fetch_etfs.py
+      - name: Commit data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/
+          git commit -m "ETF data $(date -u +%F)" || echo "no changes"
+          git push
