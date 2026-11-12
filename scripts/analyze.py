@@ -44,6 +44,8 @@ dret = dret.loc[:, ~stale & ~spike]
 log["long_history_clean"] = int(dret.shape[1])
 cols = list(dret.columns)
 
+rf_d = px[RF].ffill().pct_change(fill_method=None)
+rf_m = ((1 + rf_d).resample("ME").prod() - 1).fillna(0)
 mret = (1 + dret).resample("ME").prod() - 1
 mret = mret.iloc[:-1] if mret.index[-1].month == last.month and last.day < 25 else mret
 
@@ -74,7 +76,7 @@ def metrics(m, d, rf_m):
 
 def window(a, b):
     m = mret.loc[a:b]; d = dret.loc[a:b]
-    return metrics(m, d, m[RF] if RF in m else 0 * m[BENCH])
+    return metrics(m, d, rf_m.reindex(m.index).fillna(0))
 
 tr, te, fu = window(*TRAIN), window(*TEST), window(TRAIN[0], None)
 spy = {k: v.loc[BENCH].to_dict() for k, v in (("train", tr), ("test", te), ("full", fu))}
@@ -106,6 +108,12 @@ picked = tab[crit.reindex(tab.index, fill_value=False)].drop(index=BENCH, errors
 picked = picked.sort_values("tr_sharpe", ascending=False)
 s_te = te.loc[BENCH]
 picked["held_up"] = (picked.te_cagr > s_te.cagr) & (picked.te_vol < s_te.vol)
+
+# S&P 500 clones (VOO, IVV...) "beat" SPY only via a lower fee - not a real answer
+spy_corr = dret.corrwith(dret[BENCH])
+clones = set(spy_corr[spy_corr > 0.995].index) - {BENCH}
+log["sp500_clones_excluded"] = sorted(clones)
+tab = tab.drop(index=[c for c in clones if c in tab.index])
 
 # full-period (in-sample) view, de-duplicated near-clones
 s_fu = fu.loc[BENCH]
@@ -160,7 +168,35 @@ for k in (2, 3, 4):
             res.append((idx, G[j], c[j], v[j], m[j], w[j]))
 log["combos_passing_train"] = len(res)
 
+def port_stats(fnd, w, a, b):
+    """Same definitions as single ETFs (daily vol), portfolio rebalanced monthly."""
+    w = np.asarray(w, float); b = b or mret.index[-1]
+    d = dret.loc[a:b, fnd]; out_r = []
+    for _, g in d.groupby(d.index.to_period("M")):
+        out_r.append(((1 + g).cumprod() * w).sum(axis=1).pct_change().fillna((1 + g.iloc[0]) @ w - 1))
+    pr = pd.concat(out_r)
+    m = (1 + pr).resample("ME").prod() - 1
+    wealth = (1 + pr).cumprod()
+    rb = (1 + mret[BENCH].reindex(m.index)).rolling(36).apply(np.prod, raw=True)
+    rp = (1 + m).rolling(36).apply(np.prod, raw=True)
+    return dict(cagr=float((1 + m).prod() ** (12 / len(m)) - 1), vol=float(pr.std() * np.sqrt(252)),
+                mdd=float((wealth / wealth.cummax() - 1).min()), win36=float((rp > rb)[rb.notna()].mean()))
+
 combos = []
+held_all = 0
+for idx, w, *_ in res:
+    Rte = M_te[:, list(idx)] @ w
+    c2, v2, _, _ = (x[0] for x in stats_m(Rte[:, None], b_te))
+    held_all += (c2 > bc_te[0]) & (v2 < bv_te[0])
+log["combos_held_test"] = int(held_all)
+rng = np.random.default_rng(1); rand_held = 0; NR = 20000
+for _ in range(NR):
+    k = rng.integers(2, 5); idx = rng.choice(len(pool), k, replace=False); w = rng.dirichlet(np.ones(k))
+    c2, v2, _, _ = (x[0] for x in stats_m((M_te[:, idx] @ w)[:, None], b_te))
+    rand_held += (c2 > bc_te[0]) & (v2 < bv_te[0])
+log["random_combo_held_rate"] = float(rand_held / NR)
+spy_m = dict(train=dict(cagr=float(bc_tr[0]), vol=float(bv_tr[0]), mdd=float(bm_tr[0])),
+             test=dict(cagr=float(bc_te[0]), vol=float(bv_te[0]), mdd=float(bm_te[0])))
 if res:
     df = pd.DataFrame(res, columns=["idx", "w", "c", "v", "m", "win"])
     df["score"] = (df.c - bc_tr[0]) / df.v      # excess return per unit vol
@@ -170,13 +206,29 @@ if res:
         key = tuple(sorted(r.idx))
         if key in seen: continue
         seen.add(key)
-        Rte = M_te[:, list(r.idx)] @ r.w
-        c2, v2, m2, w2 = (x[0] for x in stats_m(Rte[:, None], b_te))
-        combos.append(dict(funds=[pool[i] for i in r.idx], weights=[round(float(x), 2) for x in r.w],
-                           train=dict(cagr=r.c, vol=r.v, mdd=r.m, win36=r.win),
-                           test=dict(cagr=float(c2), vol=float(v2), mdd=float(m2), win36=float(w2)),
-                           held_up=bool(c2 > bc_te[0] and v2 < bv_te[0])))
+        fnd = [pool[i] for i in r.idx]
+        trs, tes = port_stats(fnd, r.w, *TRAIN), port_stats(fnd, r.w, TEST[0], None)
+        combos.append(dict(funds=fnd, weights=[round(float(x), 2) for x in r.w], train=trs, test=tes,
+                           held_up=bool(tes["cagr"] > spy["test"]["cagr"] and tes["vol"] < spy["test"]["vol"])))
         if len(combos) >= 30: break
+
+# ---------- 5-year view: every non-leveraged ETF with 5y of data (in-sample only) ----------
+f_start = (mret.index[-1] - pd.DateOffset(years=5)).strftime("%Y-%m-01")
+allc = [c for c in px.columns if not c.startswith("^") and c not in lev]
+d5 = px.loc[f_start:, allc]
+d5 = d5.loc[:, d5.iloc[:10].notna().all() & (d5.notna().mean() > 0.98)].ffill(limit=5)
+r5 = d5.pct_change(fill_method=None).iloc[1:]
+r5 = r5.loc[:, ((r5 == 0).mean() < 0.15) & (r5.abs().max() < 0.40)]
+m5 = (1 + r5).resample("ME").prod() - 1
+m5 = m5.loc[:mret.index[-1]]
+met5 = metrics(m5, r5, rf_m.reindex(m5.index).fillna(0))
+met5["name"] = [names.get(c, c) for c in met5.index]
+s5 = met5.loc[BENCH]
+c5 = r5.corrwith(r5[BENCH]); met5 = met5.drop(index=[c for c in c5[c5 > 0.995].index if c != BENCH])
+b5 = met5[(met5.cagr > s5.cagr) & (met5.vol < s5.vol) & (met5.win36 >= 0.5)].drop(index=BENCH, errors="ignore")
+five = dict(start=f_start, n=int(met5.shape[0]), count=int(len(b5)), spy=s5.drop("name").astype(float).to_dict(),
+            rows=[dict(ticker=t, name=r["name"], **{k: round(float(r[k]), 4) for k in ["cagr", "vol", "mdd", "sharpe", "beta", "dncap", "win36"]})
+                  for t, r in b5.sort_values("sharpe", ascending=False).head(30).iterrows()])
 
 # ---------- growth curves for dashboard ----------
 def curve(tickers, weights=None):
@@ -194,7 +246,7 @@ def rows(df, n=25):
 
 result = dict(
     as_of=str(mret.index[-1].date()), train=TRAIN, test=[TEST[0], str(mret.index[-1].date())],
-    log=log, spy=spy,
+    log=log, spy=spy, spy_monthly=spy_m, five_year=five,
     picked=rows(picked, 40), picked_count=int(len(picked)), picked_held=int(picked.held_up.sum()) if len(picked) else 0,
     full_beat=rows(dedupe(fp, "fu_sharpe") if len(fp) else fp), full_beat_count=int(len(fp)),
     riskadj=rows(dedupe(riskadj, "fu_sharpe") if len(riskadj) else riskadj), riskadj_count=int(len(riskadj)),

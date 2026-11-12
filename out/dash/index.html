@@ -1,0 +1,242 @@
+<meta name="dash-one-writer">
+<style>
+.ea { display: flex; flex-direction: column; gap: var(--cds-gap-xl); max-width: 860px; }
+.ea h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.ea h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0 0 var(--cds-gap-xs); }
+.ea p { margin: 0; line-height: 1.5; }
+.ea .lede { font-size: var(--cds-font-size-body); }
+.ea .muted { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+.ea .num { font-variant-numeric: tabular-nums; font-weight: var(--cds-font-weight-medium); }
+.ea .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--cds-gap-md); }
+.ea .tile { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); }
+.ea .tile .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 1.9rem; font-variant-numeric: tabular-nums; display: block; margin-top: var(--cds-gap-xs); }
+.ea .funnel { display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+.ea .frow { display: grid; grid-template-columns: 1fr auto; gap: 2px var(--cds-gap-sm); font-size: var(--cds-font-size-caption); }
+.ea .frow .bar { grid-column: 1 / -1; height: 10px; border-radius: 3px; min-width: 3px; }
+.ea .tw { overflow-x: auto; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); }
+.ea table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.ea th, .ea td { padding: 6px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--color-border-line); }
+.ea th { font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); background: var(--color-panel); }
+.ea th:first-child, .ea td:first-child, .ea .left { text-align: left; }
+.ea td.name { max-width: 220px; overflow: hidden; text-overflow: ellipsis; text-align: left; color: var(--color-fg-muted); }
+.ea .good { color: var(--color-ok); } .ea .bad { color: var(--color-bad); }
+.ea .chart { position: relative; min-height: 260px; }
+.ea .chart svg text { fill: var(--cds-text-secondary); font-size: var(--cds-font-size-caption); }
+.ea .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover); border-radius: var(--cds-radius); padding: 6px 8px; font-size: var(--cds-font-size-caption); white-space: nowrap; }
+.ea details summary { cursor: pointer; font-weight: var(--cds-font-weight-medium); }
+.ea details ul { padding-left: 1.2em; line-height: 1.5; }
+[data-dash-source-state=refreshing] { opacity: .5; }
+</style>
+
+<div class="ea" data-read lang="en">
+  <header id="top">
+    <h1>ETFs vs the S&amp;P 500</h1>
+    <p class="lede">Of <span class="num" data-draw="fcount" data-source="funnel" data-field="count" data-row="2">—</span> ETFs with full price history since 2011, <span class="num" data-draw="fcount" data-source="funnel" data-field="count" data-row="3">—</span> beat SPY with lower volatility in 2011–2019, and <span class="num" data-draw="fcount" data-source="funnel" data-field="count" data-row="4">—</span> of them kept doing it in 2020–2026. None beat SPY by more than luck would explain.</p>
+    <p class="muted">Total returns with dividends reinvested, monthly data to Oct 2026. Research, not investment advice.</p>
+  </header>
+
+  <section id="benchmark">
+    <h2>The bar to clear: SPY</h2>
+    <div class="tiles">
+      <div class="tile"><span class="muted">Yearly return, 2011–2019</span><span class="big" data-draw="spyv" data-fmt="pct" data-source="spy" data-field="cagr" data-row="0">—</span></div>
+      <div class="tile"><span class="muted">Yearly return, 2020–2026</span><span class="big" data-draw="spyv" data-fmt="pct" data-source="spy" data-field="cagr" data-row="1">—</span></div>
+      <div class="tile"><span class="muted">Volatility, 2020–2026</span><span class="big" data-draw="spyv" data-fmt="pct" data-source="spy" data-field="vol" data-row="1">—</span></div>
+      <div class="tile"><span class="muted">Worst drop, 2020–2026</span><span class="big" data-draw="spyv" data-fmt="pct" data-source="spy" data-field="max_drawdown" data-row="1">—</span></div>
+    </div>
+  </section>
+
+  <section id="funnel">
+    <h2>How the field narrows</h2>
+    <p class="muted">Funds were chosen on 2011–2019 only, then checked on 2020–2026, which played no part in choosing them.</p>
+    <div class="funnel" data-draw="funnel" data-source="funnel" role="list" aria-label="Number of ETFs left at each filtering step"></div>
+  </section>
+
+  <section id="single">
+    <h2>Single ETFs: the 2011–2019 winners didn't last</h2>
+    <p class="muted">Each beat SPY's return with lower volatility in 2011–2019 and outperformed in at least 60% of rolling 3-year windows. Since 2020 every one has been more volatile than SPY.</p>
+    <div class="tw"><table data-source="picks" data-row-key="ticker">
+      <thead><tr><th data-field="ticker">ETF</th><th class="left" data-field="name">Name</th><th data-field="cagr_2011_19" data-fmt="pct">Return 11–19</th><th data-field="vol_2011_19" data-fmt="pct">Vol 11–19</th><th data-field="cagr_2020_26" data-fmt="pct">Return 20–26</th><th data-field="vol_2020_26" data-fmt="pct">Vol 20–26</th><th data-field="held_up" data-fmt="yn">Held up</th></tr></thead>
+      <tbody data-draw="tbl"></tbody>
+    </table></div>
+  </section>
+
+  <section id="mixes">
+    <h2>Mixes of 2–4 ETFs: most past winners faded too</h2>
+    <p><span class="num" data-draw="cs" data-source="combo_summary" data-field="passed_train" data-row="0">—</span> mixes beat SPY with at least 10% less volatility in 2011–2019. Only <span class="num" data-draw="heldshare" data-source="held_share">—</span> of them did it again in 2020–2026, against <span class="num" data-draw="cs" data-source="combo_summary" data-field="random_held_rate" data-row="0" data-fmt="pct">—</span> for random mixes of the same funds. Picking on past results helped a little, but most picks still failed.</p>
+    <div class="tw"><table data-source="combos" data-row-key="portfolio">
+      <thead><tr><th data-field="rank">#</th><th class="left" data-field="portfolio">Mix</th><th data-field="cagr_2011_19" data-fmt="pct">Return 11–19</th><th data-field="vol_2011_19" data-fmt="pct">Vol 11–19</th><th data-field="cagr_2020_26" data-fmt="pct">Return 20–26</th><th data-field="vol_2020_26" data-fmt="pct">Vol 20–26</th><th data-field="held_up" data-fmt="yn">Held up</th></tr></thead>
+      <tbody data-draw="tbl"></tbody>
+    </table></div>
+    <p class="muted">Ranked by 2011–2019 return per unit of volatility. The top 8 are shown, plus the mixes in the top 30 that held up. Rebalanced monthly.</p>
+  </section>
+
+  <section id="growth">
+    <h2>Growth of $10,000, monthly</h2>
+    <p class="muted">Everything left of the dashed line is the period the mixes were picked on, so their lead there is flattering by design.</p>
+    <div class="chart" data-draw="growth" data-source="growth"></div>
+  </section>
+
+  <section id="five">
+    <h2>Last 5 years: every ETF with enough history</h2>
+    <p class="muted"><span data-draw="cs" data-source="fiveyear_summary" data-field="passed" data-row="0">—</span> of <span data-draw="cs" data-source="fiveyear_summary" data-field="funds_checked" data-row="0">—</span> funds beat SPY with lower volatility and won at least half of rolling 3-year windows. This is in-sample only: nothing here has been tested on a later period yet, and many are value or international funds that rode one market phase. S&amp;P 500 copies such as VOO and IVV are left out.</p>
+    <div class="tw"><table data-source="fiveyear" data-row-key="ticker">
+      <thead><tr><th data-field="ticker">ETF</th><th class="left" data-field="name">Name</th><th data-field="cagr" data-fmt="pct">Return</th><th data-field="vol" data-fmt="pct">Vol</th><th data-field="max_drawdown" data-fmt="pct">Worst drop</th><th data-field="sharpe" data-fmt="n2">Sharpe</th><th data-field="beta" data-fmt="n2">Beta</th></tr></thead>
+      <tbody data-draw="tbl"></tbody>
+    </table></div>
+  </section>
+
+  <section id="fullperiod">
+    <h2>Whole 2011–2026 period, looking back</h2>
+    <p class="muted">Only these funds beat SPY with lower volatility over the full span, by small margins. Hindsight picks: they were not identifiable in advance.</p>
+    <div class="tw"><table data-source="fullperiod" data-row-key="ticker">
+      <thead><tr><th data-field="ticker">ETF</th><th class="left" data-field="name">Name</th><th data-field="cagr" data-fmt="pct">Return</th><th data-field="vol" data-fmt="pct">Vol</th><th data-field="max_drawdown" data-fmt="pct">Worst drop</th><th data-field="sharpe" data-fmt="n2">Sharpe</th></tr></thead>
+      <tbody data-draw="tbl"></tbody>
+    </table></div>
+  </section>
+
+  <details id="method">
+    <summary>Method and caveats</summary>
+    <ul>
+      <li>Universe: every ETF on Nasdaq Trader's list of US-traded securities, all exchanges, international funds included. Prices are Yahoo Finance closes adjusted for dividends and splits.</li>
+      <li>Leveraged and inverse funds were dropped by name. Funds with stale prices or bad data spikes were dropped.</li>
+      <li>Return is yearly growth (CAGR). Volatility is the annualised standard deviation of daily returns. Sharpe uses T-bill fund BIL as the risk-free rate.</li>
+      <li>"Luck" test: each fund's monthly lead over SPY, with a Newey-West t-test and Benjamini-Hochberg correction across all funds.</li>
+      <li>Survivorship bias: closed ETFs are not in today's list, so results look better than reality.</li>
+      <li>Mixes were searched over 40 funds (the strongest 2011–2019 funds plus common diversifiers) in 10–20% weight steps.</li>
+    </ul>
+  </details>
+</div>
+
+<script>
+window.ea = {
+  pct: d3.format('.1%'),
+  n2: d3.format('.2f'),
+  int: d3.format(','),
+  fmt(v, kind) {
+    if (v === null || v === undefined || v === '') return '—';
+    if (kind === 'yn') return v;
+    const n = +v;
+    if (kind === 'pct') return ea.pct(n);
+    if (kind === 'n2') return ea.n2(n);
+    if (Number.isInteger(n) && kind !== 'text') return ea.int(n);
+    return String(v);
+  },
+};
+
+dash.calc('held_share', {
+  inputs: ['combo_summary'],
+  title: 'Share of past-winning mixes that held up',
+  description: 'Mixes that beat SPY with lower volatility in 2020–2026, as a share of those that did so in 2011–2019.',
+  fn: (summary) => summary.length ? (+summary[0].held_test) / (+summary[0].passed_train) : null,
+});
+
+function eaCell(el) {
+  const g = dash.data(el.dataset.source);
+  if (g.status !== 'ok') { el.textContent = '—'; return; }
+  const row = g.data[+el.dataset.row || 0];
+  el.textContent = row ? ea.fmt(row[el.dataset.field], el.dataset.fmt) : '—';
+}
+dash.draw('fcount', eaCell);
+dash.draw('spyv', eaCell);
+dash.draw('cs', eaCell);
+dash.draw('heldshare', (el) => {
+  const c = dash.data('held_share');
+  el.textContent = c.status === 'ok' && c.data !== null ? ea.pct(c.data) : '—';
+});
+
+dash.draw('tbl', (tbody) => {
+  const table = tbody.closest('table');
+  const g = dash.data(table.dataset.source);
+  const cols = [...table.querySelectorAll('th')].map((th) => ({ f: th.dataset.field, fmt: th.dataset.fmt }));
+  tbody.replaceChildren();
+  if (g.status !== 'ok') return;
+  for (const r of g.data) {
+    const tr = document.createElement('tr');
+    for (const c of cols) {
+      const td = document.createElement('td');
+      td.textContent = ea.fmt(r[c.f], c.fmt || 'text');
+      if (c.f === 'name') td.className = 'name';
+      if (c.f === 'portfolio') td.className = 'left';
+      if (c.fmt === 'yn') td.className = r[c.f] === 'Yes' ? 'good' : 'bad';
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+});
+
+dash.draw('funnel', (el) => {
+  const g = dash.data('funnel');
+  el.replaceChildren();
+  if (g.status !== 'ok') return;
+  const max = d3.max(g.data, (d) => +d.count);
+  const x = d3.scaleLog().domain([1, max]).range([1, 100]);
+  g.data.forEach((d, i) => {
+    const row = document.createElement('div'); row.className = 'frow'; row.setAttribute('role', 'listitem');
+    const lab = document.createElement('span'); lab.textContent = d.stage;
+    const val = document.createElement('span'); val.className = 'num'; val.textContent = ea.int(+d.count);
+    const bar = document.createElement('div'); bar.className = 'bar';
+    bar.style.width = (+d.count > 0 ? x(Math.max(1, +d.count)) : 0) + '%';
+    bar.style.background = i >= 3 ? dash.colors[1] : dash.colors[0];
+    row.append(lab, val, bar); el.appendChild(row);
+  });
+  const note = document.createElement('span'); note.className = 'muted'; note.textContent = 'Bar lengths use a log scale.';
+  el.appendChild(note);
+});
+
+dash.draw('growth', (el) => {
+  const g = dash.data('growth');
+  el.replaceChildren();
+  if (g.status !== 'ok') { if (g.status === 'error') el.textContent = 'Failed to load'; return; }
+  const rows = g.data.map((d) => ({ date: d3.utcParse('%Y-%m-%d')(d.month), s: d.series, v: +d.growth }));
+  const series = d3.groups(rows, (d) => d.s);
+  const W = el.clientWidth || 360, H = 260, m = { t: 10, r: 12, b: 24, l: 48 };
+  const x = d3.scaleUtc().domain(d3.extent(rows, (d) => d.date)).range([m.l, W - m.r]);
+  const y = d3.scaleLinear().domain([0, d3.max(rows, (d) => d.v)]).nice().range([H - m.b, m.t]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`)
+    .attr('role', 'img').attr('aria-label', 'Growth of $10,000 in SPY and two ETF mixes from 2011 to 2026');
+  svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(W < 420 ? 4 : 8).tickSizeOuter(0))
+    .call((a) => a.selectAll('line,path').style('stroke', 'var(--cds-chart-axis)'));
+  svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('$~s')).tickSize(-(W - m.l - m.r)))
+    .call((a) => { a.select('.domain').remove(); a.selectAll('line').style('stroke', 'var(--cds-chart-grid)'); });
+  const split = Date.UTC(2020, 0, 1);
+  svg.append('line').attr('x1', x(split)).attr('x2', x(split)).attr('y1', m.t).attr('y2', H - m.b)
+    .style('stroke', 'var(--cds-chart-reference)').style('stroke-dasharray', '4 3');
+  svg.append('text').attr('x', x(split) + 4).attr('y', m.t + 10).text('Test period →');
+  const line = d3.line().x((d) => x(d.date)).y((d) => y(d.v));
+  series.forEach(([name, pts], i) => {
+    svg.append('path').datum(pts).attr('d', line).attr('fill', 'none')
+      .style('stroke', dash.colors[i]).style('stroke-width', name === 'SPY' ? 2.5 : 1.75);
+  });
+  const legend = document.createElement('div'); legend.className = 'muted';
+  legend.style.display = 'flex'; legend.style.flexWrap = 'wrap'; legend.style.gap = '4px 14px'; legend.style.marginTop = '6px';
+  series.forEach(([name, pts], i) => {
+    const s = document.createElement('span');
+    const sw = document.createElement('span'); sw.textContent = '■ '; sw.style.color = dash.colors[i];
+    s.append(sw, `${name}: ${d3.format('$,.0f')(pts[pts.length - 1].v)}`);
+    legend.appendChild(s);
+  });
+  el.appendChild(legend);
+  const tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; el.appendChild(tip);
+  const dates = series[0][1].map((d) => d.date);
+  const guide = svg.append('line').attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--cds-chart-axis)').style('display', 'none');
+  svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', W - m.l - m.r).attr('height', H - m.t - m.b)
+    .attr('fill', 'transparent')
+    .on('pointermove', (ev) => {
+      const [px] = d3.pointer(ev);
+      const i = Math.max(0, Math.min(dates.length - 1, d3.bisectCenter(dates.map(Number), +x.invert(px))));
+      const d = dates[i];
+      guide.attr('x1', x(d)).attr('x2', x(d)).style('display', null);
+      tip.replaceChildren();
+      const h = document.createElement('div'); h.textContent = d3.utcFormat('%b %Y')(d); tip.appendChild(h);
+      series.forEach(([name, pts], k) => {
+        const r = document.createElement('div'); const sw = document.createElement('span');
+        sw.textContent = '■ '; sw.style.color = dash.colors[k];
+        r.append(sw, `${name}: ${d3.format('$,.0f')(pts[i].v)}`); tip.appendChild(r);
+      });
+      tip.hidden = false;
+      const left = Math.min(x(d) / W * el.clientWidth + 10, el.clientWidth - tip.offsetWidth - 4);
+      tip.style.left = Math.max(0, left) + 'px'; tip.style.top = '8px';
+    })
+    .on('pointerleave', () => { tip.hidden = true; guide.style('display', 'none'); });
+});
+</script>

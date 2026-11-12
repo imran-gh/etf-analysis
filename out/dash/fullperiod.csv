@@ -1,0 +1,4 @@
+ticker,name,cagr,vol,max_drawdown,sharpe
+RTH,VanEck Retail ETF,0.1506,0.1658,-0.25,0.9424
+SPHQ,Invesco S&P 500 Quality ETF,0.1398,0.1655,-0.3159,0.9396
+IWL,iShares Russell Top 200 ETF,0.1433,0.1701,-0.3271,0.9251
