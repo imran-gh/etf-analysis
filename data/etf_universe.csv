@@ -722,6 +722,7 @@ BUYZ,BUYZ,Franklin Disruptive Commerce ETF,Z,False
 BUZZ,BUZZ,VanEck Social Sentiment ETF,P,False
 BVAL,BVAL,Bluemonte Large Cap Value ETF,P,False
 BWET,BWET,Breakwave Tanker Shipping ETF,P,False
+BWLB,BWLB,Brandywine Large Cap ETF,P,False
 BWQG,BWQG,BWM Quality Growth ETF,Z,False
 BWTG,BWTG,Brendan Wood TopGun Index ETF,Z,False
 BWX,BWX,State Street SPDR Bloomberg International Treasury Bond ETF,P,False
@@ -1656,10 +1657,8 @@ FDD,FDD,First Trust STOXX European Select Dividend Index Fund,P,False
 FDEC,FDEC,FT Vest U.S. Equity Buffer ETF - December,Z,False
 FDEM,FDEM,Fidelity Emerging Markets Multifactor ETF,Z,False
 FDEV,FDEV,Fidelity International Multifactor ETF,Z,False
-FDFF,FDFF,Fidelity Disruptive Finance ETF,Q,False
 FDG,FDG,American Century Focused Dynamic Growth ETF,P,False
 FDHY,FDHY,Fidelity Enhanced High Yield ETF,P,False
-FDIF,FDIF,Fidelity Disruptors ETF,Q,False
 FDIG,FDIG,Fidelity Crypto Industry and Digital Payments ETF,Q,False
 FDIQ,FDIQ,Invesco Bloomberg Financial Data Providers ETF,Q,False
 FDIS,FDIS,Fidelity MSCI Consumer Discretionary Index ETF,P,False
@@ -1839,8 +1838,6 @@ FMB,FMB,First Trust Managed Municipal ETF,Q,False
 FMCE,FMCE,FM Compounders Equity ETF,P,False
 FMCX,FMCX,FM Focus Equity ETF,P,False
 FMDE,FMDE,Fidelity Enhanced Mid Cap Core ETF,P,False
-FMED,FMED,Fidelity Disruptive Medicine ETF,Q,False
-FMET,FMET,Fidelity Metaverse ETF,Q,False
 FMF,FMF,First Trust Managed Futures Strategy Fund,P,False
 FMHI,FMHI,First Trust Municipal High Income ETF,Q,False
 FMIG,FMIG,FMI Global Equity ETF,P,False
@@ -1880,7 +1877,6 @@ FPAS,FPAS,FPA Short Duration Government ETF,Z,False
 FPE,FPE,First Trust Preferred Securities and Income ETF ETF,P,False
 FPEI,FPEI,First Trust Institutional Preferred Securities and Income ETF,P,False
 FPFD,FPFD,Fidelity Preferred Securities & Income ETF,Z,False
-FPRO,FPRO,Fidelity Real Estate Investment ETF,Z,False
 FPSX,FPSX,Leverage Shares 2X Long FPS Daily ETF,Z,True
 FPWR,FPWR,First Trust EIP Power Solutions ETF,P,False
 FPX,FPX,First Trust US Equity Opportunities ETF,P,False
@@ -2091,6 +2087,7 @@ GLDW,GLDW,Roundhill Gold WeeklyPay ETF,Z,False
 GLIN,GLIN,VanEck India Growth Leaders ETF,P,False
 GLIX,GLIX,Lazard Listed Infrastructure ETF,P,False
 GLL,GLL,ProShares UltraShort Gold,P,True
+GLLD,GLLD,"MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",P,True
 GLNK,GLNK,Grayscale Chainlink Trust ETF,P,False
 GLOF,GLOF,iShares Global Equity Factor ETF,P,False
 GLOW,GLOW,VictoryShares WestEnd Global Equity ETF,Q,False
@@ -2895,6 +2892,7 @@ KAUG,KAUG,Innovator US Small Cap Power Buffer ETF - August,Z,False
 KBA,KBA,KraneShares Bosera MSCI China A 50 Connect Index ETF,P,False
 KBE,KBE,State Street SPDR S&P Bank ETF,P,False
 KBFR,KBFR,Innovator U.S. Small Cap Managed 10 Buffer ETF,P,False
+KBTY,KBTY,Guinness Atkinson K-Beauty ETF,P,False
 KBUF,KBUF,KraneShares 90% KWEB Defined Outcome January 2027 ETF,P,False
 KBWB,KBWB,Invesco KBW Bank ETF,Q,False
 KBWD,KBWD,Invesco KBW High Dividend Yield Financial ETF,Q,False
@@ -3123,6 +3121,7 @@ MADE,MADE,iShares U.S. Manufacturing ETF,P,False
 MAGA,MAGA,Truth Social America First ETF,P,False
 MAGC,MAGC,Roundhill China Magnificent Seven ETF,Z,False
 MAGG,MAGG,Madison Aggregate Bond ETF,P,False
+MAGP,MAGP,Roundhill Magnificent Seven Plus ETF,Z,False
 MAGS,MAGS,Roundhill Magnificent Seven ETF,Z,False
 MAGX,MAGX,Roundhill Daily 2X Long Magnificent Seven ETF,Z,True
 MAGY,MAGY,Roundhill Magnificent Seven Covered Call ETF,Z,False
@@ -3477,6 +3476,7 @@ NITE,NITE,The Nightview Fund NITE,P,False
 NIXT,NIXT,Research Affiliates Deletions ETF,Q,False
 NJAN,NJAN,Innovator Growth-100 Power Buffer ETF - January,Z,False
 NJNK,NJNK,Columbia U.S. High Yield ETF,P,False
+NJPN,NJPN,Nomura Japan Equity ETF,P,False
 NJUL,NJUL,Innovator Growth-100 Power Buffer ETF - July,Z,False
 NJUN,NJUN,Innovator Growth-100 Power Buffer ETF - June,Z,False
 NLR,NLR,VanEck Uranium and Nuclear ETF,P,False
@@ -4466,7 +4466,6 @@ SHE,SHE,State Street SPDR MSCI USA Gender Diversity ETF,P,False
 SHEH,SHEH,Shell plc ADRhedged,P,False
 SHLD,SHLD,Global X Defense Tech ETF,P,False
 SHM,SHM,State Street SPDR Nuveen ICE Short Term Municipal Bond ETF,P,False
-SHNY,SHNY,"MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",P,True
 SHOC,SHOC,Strive U.S. Semiconductor ETF,N,False
 SHPP,SHPP,Pacer Industrials and Logistics ETF,P,False
 SHPU,SHPU,Direxion Daily SHOP Bull 2X ETF,Q,True
@@ -5202,7 +5201,6 @@ USEP,USEP,Innovator U.S. Equity Ultra Buffer ETF - September,Z,True
 USEW,USEW,Cambria US EW ETF,Z,False
 USFE,USFE,First Eagle US Equity ETF,P,False
 USFR,USFR,WisdomTree Floating Rate Treasury Fund,P,False
-USG,USG,USCF Gold Strategy Plus Income Fund,P,False
 USGG,USGG,Leverage Shares 2X Long USAR Daily ETF,Q,True
 USGX,USGX,Corgi U.S. Growth 2x Daily ETF,Z,True
 USHY,USHY,iShares Broad USD High Yield Corporate Bond ETF,Z,False
@@ -5306,6 +5304,7 @@ VEGN,VEGN,US Vegan Climate ETF,Z,False
 VEGX,VEGX,International Vegan Climate ETF,Z,False
 VELL,VELL,Defiance Daily Target 2X Long VELO ETF,Z,True
 VEM,VEM,Virtus Emerging Markets Dividend ETF,P,False
+VEMB,VEMB,Vanguard Emerging Markets Bond Active ETF,Z,False
 VEMY,VEMY,Virtus Stone Harbor Emerging Markets High Yield Bond ETF,P,False
 VETZ,VETZ,Academy Veteran Bond ETF,P,False
 VEU,VEU,Vanguard FTSE All World Ex US ETF,P,False

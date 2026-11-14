@@ -1,5 +1,2 @@
-universe=5788 downloaded=5787 rows=5500
+universe=5787 downloaded=5789 rows=5502
 missing:
-ACVU
-IQEE
-IQES
