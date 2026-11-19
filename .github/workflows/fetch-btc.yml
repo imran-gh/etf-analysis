@@ -1,0 +1,36 @@
+name: Fetch bitcoin prices
+
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/fetch-btc.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install yfinance pandas
+      - run: |
+          python - <<'PY'
+          import yfinance as yf
+          d = yf.download("BTC-USD", start="2014-09-01", auto_adjust=True, progress=False)["Close"]
+          d.columns = ["BTC"] if hasattr(d, "columns") else d
+          d.to_csv("data/btc.csv")
+          print(d.tail())
+          PY
+      - name: Commit data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/btc.csv
+          git commit -m "BTC prices $(date -u +%F) [skip ci]" || echo "no changes"
+          git pull --rebase
+          git push
